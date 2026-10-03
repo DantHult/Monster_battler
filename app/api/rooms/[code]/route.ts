@@ -1,0 +1,7 @@
+import {roomDb} from '../../../../db/raw.ts';
+import {getRoom,submit,parseChoice,exportRoom,saveFeedback,RoomError} from '../../../../lib/server/rooms.ts';
+type Context={params:Promise<{code:string}>};
+function token(req:Request){return (req.headers.get('Authorization')??'').replace(/^Bearer /,'');}
+function failure(e:unknown){if(!(e instanceof RoomError))console.error('Room update failed',e);return Response.json({error:e instanceof RoomError?e.message:'The room could not be updated. Retry the same choice.'},{status:e instanceof RoomError?e.status:500,headers:{'Cache-Control':'no-store'}});}
+export async function GET(req:Request,ctx:Context){try{const db=roomDb(),{code}=await ctx.params;const data=new URL(req.url).searchParams.has('export')?await exportRoom(db,code,token(req)):await getRoom(db,code,token(req));return Response.json(data,{headers:{'Cache-Control':'no-store'}});}catch(e){return failure(e);}}
+export async function POST(req:Request,ctx:Context){try{const db=roomDb(),{code}=await ctx.params,body=await req.json() as {gate?:unknown;choice?:unknown;feedback?:unknown};if(body.feedback)return Response.json(await saveFeedback(db,code,token(req),body.feedback));if(!Number.isInteger(body.gate))throw new RoomError('A decision number is required.');return Response.json(await submit(db,code,token(req),body.gate as number,parseChoice(body.choice)),{headers:{'Cache-Control':'no-store'}});}catch(e){return failure(e);}}

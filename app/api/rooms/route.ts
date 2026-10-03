@@ -1,0 +1,3 @@
+import {roomDb} from '../../../db/raw.ts';
+import {createRoom,joinRoom,RoomError} from '../../../lib/server/rooms.ts';
+export async function POST(req:Request){try{const db=roomDb(),body=await req.json() as {code?:unknown};const result=typeof body.code==='string'?await joinRoom(db,body.code.trim().toUpperCase()):await createRoom(db);return Response.json(result,{headers:{'Cache-Control':'no-store'}});}catch(e){if(!(e instanceof RoomError))console.error('Room creation failed',e);return Response.json({error:e instanceof RoomError?e.message:'Could not open the room.'},{status:e instanceof RoomError?e.status:500});}}
