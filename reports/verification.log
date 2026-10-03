@@ -1,0 +1,28 @@
+PASS Generator catalogue, eligibility, incidence and redraw audit
+PASS HMAC standard vector and approved independent stream fixture
+PASS C01 speed order; C02 priority and exact tie
+PASS C03 switch precedes priority; C04 two switches
+PASS C05 speed changes do not reorder; C06 defense changes affect damage
+PASS C07 KO cancels uses/critical draw; C08 wasted utility spends use
+PASS C09 direct final KO before Fray; C10 simultaneous final Fray draw
+PASS C11 single/double replacement gates and hidden sole choice
+PASS C12 switch preservation and paused bench clock
+PASS C13 Fray timing and refresh without stacking; C14 Tethered coexistence
+PASS C15 exact setup and brace lifetimes
+PASS C16 cleanup preserves opposing statuses and reduction
+PASS C17 healing floor/clamp, no revival; C18 fallback legality
+PASS C19 exact formula examples and combined single rounding
+PASS C20 turn-cap precedence, commit-order independence, receipts and privacy
+PASS A completed deterministic match replays byte for byte
+Smoke matches 100 / 1000
+Smoke matches 200 / 1000
+Smoke matches 300 / 1000
+Smoke matches 400 / 1000
+Smoke matches 500 / 1000
+Smoke matches 600 / 1000
+Smoke matches 700 / 1000
+Smoke matches 800 / 1000
+Smoke matches 900 / 1000
+Smoke matches 1000 / 1000
+PASS 1000 seeded R/R, R/S and S/S matches: invariants and replays
+All checks passed. {"matches":1000,"wins":[504,495],"simultaneous_draws":0,"cap_draws":1,"critical_hits":612,"damaging_actions":22211,"policies":{"R/R":{"matches":400,"p0_score":215.5,"turns":14343},"R/S":{"matches":150,"p0_score":0,"turns":2036},"S/R":{"matches":150,"p0_score":150,"turns":2035},"S/S":{"matches":300,"p0_score":139,"turns":4033}},"species":{"N06":{"appearances":650,"score":324},"N09":{"appearances":600,"score":286},"N01":{"appearances":742,"score":367.5},"N07":{"appearances":740,"score":364},"N10":{"appearances":716,"score":373.5},"N05":{"appearances":640,"score":328},"N08":{"appearances":591,"score":299},"N11":{"appearances":711,"score":352},"N12":{"appearances":580,"score":293.5},"N04":{"appearances":710,"score":349.5},"N02":{"appearances":655,"score":323},"N03":{"appearances":665,"score":340}},"sets":{"N06-A":{"appearances":384,"score":178},"N09-B":{"appearances":219,"score":102},"N01-B":{"appearances":351,"score":176.5},"N07-A":{"appearances":406,"score":190},"N10-A":{"appearances":374,"score":194.5},"N05-A":{"appearances":244,"score":125},"N08-A":{"appearances":288,"score":147},"N09-A":{"appearances":381,"score":184},"N08-B":{"appearances":303,"score":152},"N11-B":{"appearances":335,"score":153},"N12-B":{"appearances":375,"score":189.5},"N04-B":{"appearances":326,"score":165},"N02-B":{"appearances":341,"score":172.5},"N06-B":{"appearances":266,"score":146},"N05-B":{"appearances":396,"score":203},"N10-B":{"appearances":342,"score":179},"N11-A":{"appearances":376,"score":199},"N03-A":{"appearances":340,"score":188},"N07-B":{"appearances":334,"score":174},"N02-A":{"appearances":314,"score":150.5},"N01-A":{"appearances":391,"score":191},"N04-A":{"appearances":384,"score":184.5},"N03-B":{"appearances":325,"score":152},"N12-A":{"appearances":205,"score":104}},"types":{"earth":{"appearances":1136,"score":581},"dark":{"appearances":1141,"score":569.5},"fire":{"appearances":1202,"score":594},"water":{"appearances":1144,"score":571},"light":{"appearances":1122,"score":559.5},"air":{"appearances":1190,"score":599.5}},"legal_opportunities":{"M06":3759,"M18":11999,"M21":16058,"M24":23684,"switch":96173,"M09":3505,"M17":3510,"M20":19116,"M07":4137,"M13":10834,"M23":5917,"M01":3647,"M22":9994,"M05":5833,"M10":3368,"M15":5052,"M08":3501,"M16":7548,"M19":3159,"M12":7457,"M02":4231,"M04":3716,"M11":3629,"M14":9532,"M03":3128},"chosen_actions":{"M18":2237,"M09":1272,"switch":11129,"M24":2833,"M21":1942,"M20":2295,"M17":594,"M10":951,"M15":1069,"M01":1091,"M05":1798,"M23":717,"M13":2101,"M07":1219,"M08":1157,"M12":2101,"M02":1418,"M16":1555,"M14":1644,"M11":917,"M03":906,"M22":1244,"M04":1217,"M19":378,"M06":1109},"executed_actions":{"M18":2146,"M09":1071,"M24":2775,"M21":1791,"M20":2084,"M17":553,"M10":880,"M15":1045,"M01":987,"M05":1563,"M13":2037,"M23":688,"M07":1081,"M08":983,"M12":1842,"M02":1242,"M16":1510,"M14":1600,"M11":804,"M03":808,"M22":1152,"M04":1069,"M19":349,"M06":990},"median_turns":15,"average_turns":22.447,"turns_distribution":{"9":2,"10":17,"11":57,"12":95,"13":141,"14":128,"15":88,"16":46,"17":14,"18":7,"19":3,"20":3,"21":1,"22":3,"23":3,"24":4,"25":10,"26":7,"27":9,"28":18,"29":13,"30":16,"31":18,"32":24,"33":22,"34":24,"35":26,"36":27,"37":32,"38":22,"39":19,"40":11,"41":14,"42":20,"43":6,"44":12,"45":5,"46":5,"47":7,"48":4,"49":2,"50":1,"51":3,"52":2,"53":1,"54":3,"57":1,"59":2,"60":2}}

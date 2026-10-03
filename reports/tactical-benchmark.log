@@ -1,0 +1,394 @@
+Completed 25 / 100
+Completed 50 / 100
+Completed 75 / 100
+Completed 100 / 100
+{
+  "matches": 100,
+  "policies": [
+    "T",
+    "S"
+  ],
+  "rules": "lantern-rules-v1",
+  "content": "lantern-content-v1",
+  "profile": "v1-independent-4",
+  "rng": "hmac-sha256-counter-u32-v1",
+  "bot_versions": {
+    "R": "random-v1",
+    "S": "direct-attacker-v1",
+    "T": "tactical-four-turn-v1"
+  },
+  "wins": [
+    10,
+    90
+  ],
+  "draws": {
+    "turn_cap": 0,
+    "simultaneous_knockout": 0
+  },
+  "species": {
+    "N01": {
+      "containing_teams": 73,
+      "score": 37,
+      "leads": 17,
+      "deployed": 62
+    },
+    "N12": {
+      "containing_teams": 54,
+      "score": 25,
+      "leads": 19,
+      "deployed": 49
+    },
+    "N05": {
+      "containing_teams": 68,
+      "score": 35,
+      "leads": 24,
+      "deployed": 63
+    },
+    "N06": {
+      "containing_teams": 74,
+      "score": 39,
+      "leads": 17,
+      "deployed": 62
+    },
+    "N03": {
+      "containing_teams": 70,
+      "score": 38,
+      "leads": 5,
+      "deployed": 55
+    },
+    "N10": {
+      "containing_teams": 64,
+      "score": 28,
+      "leads": 12,
+      "deployed": 55
+    },
+    "N02": {
+      "containing_teams": 65,
+      "score": 26,
+      "leads": 20,
+      "deployed": 55
+    },
+    "N04": {
+      "containing_teams": 68,
+      "score": 33,
+      "leads": 12,
+      "deployed": 54
+    },
+    "N11": {
+      "containing_teams": 71,
+      "score": 36,
+      "leads": 16,
+      "deployed": 60
+    },
+    "N07": {
+      "containing_teams": 69,
+      "score": 38,
+      "leads": 11,
+      "deployed": 59
+    },
+    "N09": {
+      "containing_teams": 63,
+      "score": 34,
+      "leads": 28,
+      "deployed": 56
+    },
+    "N08": {
+      "containing_teams": 61,
+      "score": 31,
+      "leads": 19,
+      "deployed": 57
+    }
+  },
+  "sets": {
+    "N01-B": {
+      "containing_teams": 34,
+      "score": 21,
+      "leads": 5,
+      "deployed": 26
+    },
+    "N12-B": {
+      "containing_teams": 36,
+      "score": 17,
+      "leads": 13,
+      "deployed": 34
+    },
+    "N05-B": {
+      "containing_teams": 46,
+      "score": 24,
+      "leads": 14,
+      "deployed": 41
+    },
+    "N06-A": {
+      "containing_teams": 51,
+      "score": 27,
+      "leads": 12,
+      "deployed": 42
+    },
+    "N03-A": {
+      "containing_teams": 37,
+      "score": 21,
+      "leads": 2,
+      "deployed": 26
+    },
+    "N10-A": {
+      "containing_teams": 34,
+      "score": 14,
+      "leads": 8,
+      "deployed": 31
+    },
+    "N02-A": {
+      "containing_teams": 28,
+      "score": 13,
+      "leads": 11,
+      "deployed": 22
+    },
+    "N02-B": {
+      "containing_teams": 37,
+      "score": 13,
+      "leads": 9,
+      "deployed": 33
+    },
+    "N03-B": {
+      "containing_teams": 33,
+      "score": 17,
+      "leads": 3,
+      "deployed": 29
+    },
+    "N04-B": {
+      "containing_teams": 31,
+      "score": 15,
+      "leads": 4,
+      "deployed": 23
+    },
+    "N11-B": {
+      "containing_teams": 35,
+      "score": 20,
+      "leads": 6,
+      "deployed": 29
+    },
+    "N06-B": {
+      "containing_teams": 23,
+      "score": 12,
+      "leads": 5,
+      "deployed": 20
+    },
+    "N01-A": {
+      "containing_teams": 39,
+      "score": 16,
+      "leads": 12,
+      "deployed": 36
+    },
+    "N07-A": {
+      "containing_teams": 37,
+      "score": 18,
+      "leads": 8,
+      "deployed": 33
+    },
+    "N09-B": {
+      "containing_teams": 26,
+      "score": 13,
+      "leads": 9,
+      "deployed": 22
+    },
+    "N12-A": {
+      "containing_teams": 18,
+      "score": 8,
+      "leads": 6,
+      "deployed": 15
+    },
+    "N10-B": {
+      "containing_teams": 30,
+      "score": 14,
+      "leads": 4,
+      "deployed": 24
+    },
+    "N08-A": {
+      "containing_teams": 31,
+      "score": 14,
+      "leads": 8,
+      "deployed": 30
+    },
+    "N07-B": {
+      "containing_teams": 32,
+      "score": 20,
+      "leads": 3,
+      "deployed": 26
+    },
+    "N05-A": {
+      "containing_teams": 22,
+      "score": 11,
+      "leads": 10,
+      "deployed": 22
+    },
+    "N04-A": {
+      "containing_teams": 37,
+      "score": 18,
+      "leads": 8,
+      "deployed": 31
+    },
+    "N11-A": {
+      "containing_teams": 36,
+      "score": 16,
+      "leads": 10,
+      "deployed": 31
+    },
+    "N08-B": {
+      "containing_teams": 30,
+      "score": 17,
+      "leads": 11,
+      "deployed": 27
+    },
+    "N09-A": {
+      "containing_teams": 37,
+      "score": 21,
+      "leads": 19,
+      "deployed": 34
+    }
+  },
+  "types": {
+    "fire": {
+      "containing_teams": 121,
+      "score": 55
+    },
+    "light": {
+      "containing_teams": 115,
+      "score": 58
+    },
+    "earth": {
+      "containing_teams": 116,
+      "score": 59
+    },
+    "air": {
+      "containing_teams": 120,
+      "score": 61
+    },
+    "dark": {
+      "containing_teams": 116,
+      "score": 56
+    },
+    "water": {
+      "containing_teams": 116,
+      "score": 60
+    }
+  },
+  "comeback": {
+    "eligible": 100,
+    "wins": 43,
+    "draws": 0
+  },
+  "critical": {
+    "executed_attacks": 2156,
+    "hits": 68,
+    "immediate_KO_threshold_changed": null
+  },
+  "first_damaging_action": {
+    "eligible": 100,
+    "score": 64
+  },
+  "turns": [
+    10,
+    11,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    13,
+    13,
+    13,
+    13,
+    13,
+    13,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    15,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    17,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    19,
+    20,
+    20,
+    21,
+    21,
+    22
+  ],
+  "median_turns": 16,
+  "mean_turns": 15.78,
+  "elapsed_seconds": 27.690482063,
+  "note": "One stable policy pairing per report. Containing-team scores are not duel strength. Threshold-changing criticals require event-by-event counterfactual replay; this report leaves them unmeasured. Human pace/fun and severe team matchup advantage are not inferred."
+}

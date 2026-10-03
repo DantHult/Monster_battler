@@ -1,0 +1,3294 @@
+{
+  "summary": {
+    "matches": 100,
+    "policies": [
+      "T",
+      "S"
+    ],
+    "rules": "lantern-rules-v1",
+    "content": "lantern-content-v1",
+    "profile": "v1-independent-4",
+    "rng": "hmac-sha256-counter-u32-v1",
+    "bot_versions": {
+      "R": "random-v1",
+      "S": "direct-attacker-v1",
+      "T": "tactical-four-turn-v1"
+    },
+    "wins": [
+      10,
+      90
+    ],
+    "draws": {
+      "turn_cap": 0,
+      "simultaneous_knockout": 0
+    },
+    "species": {
+      "N01": {
+        "containing_teams": 73,
+        "score": 37,
+        "leads": 17,
+        "deployed": 62
+      },
+      "N12": {
+        "containing_teams": 54,
+        "score": 25,
+        "leads": 19,
+        "deployed": 49
+      },
+      "N05": {
+        "containing_teams": 68,
+        "score": 35,
+        "leads": 24,
+        "deployed": 63
+      },
+      "N06": {
+        "containing_teams": 74,
+        "score": 39,
+        "leads": 17,
+        "deployed": 62
+      },
+      "N03": {
+        "containing_teams": 70,
+        "score": 38,
+        "leads": 5,
+        "deployed": 55
+      },
+      "N10": {
+        "containing_teams": 64,
+        "score": 28,
+        "leads": 12,
+        "deployed": 55
+      },
+      "N02": {
+        "containing_teams": 65,
+        "score": 26,
+        "leads": 20,
+        "deployed": 55
+      },
+      "N04": {
+        "containing_teams": 68,
+        "score": 33,
+        "leads": 12,
+        "deployed": 54
+      },
+      "N11": {
+        "containing_teams": 71,
+        "score": 36,
+        "leads": 16,
+        "deployed": 60
+      },
+      "N07": {
+        "containing_teams": 69,
+        "score": 38,
+        "leads": 11,
+        "deployed": 59
+      },
+      "N09": {
+        "containing_teams": 63,
+        "score": 34,
+        "leads": 28,
+        "deployed": 56
+      },
+      "N08": {
+        "containing_teams": 61,
+        "score": 31,
+        "leads": 19,
+        "deployed": 57
+      }
+    },
+    "sets": {
+      "N01-B": {
+        "containing_teams": 34,
+        "score": 21,
+        "leads": 5,
+        "deployed": 26
+      },
+      "N12-B": {
+        "containing_teams": 36,
+        "score": 17,
+        "leads": 13,
+        "deployed": 34
+      },
+      "N05-B": {
+        "containing_teams": 46,
+        "score": 24,
+        "leads": 14,
+        "deployed": 41
+      },
+      "N06-A": {
+        "containing_teams": 51,
+        "score": 27,
+        "leads": 12,
+        "deployed": 42
+      },
+      "N03-A": {
+        "containing_teams": 37,
+        "score": 21,
+        "leads": 2,
+        "deployed": 26
+      },
+      "N10-A": {
+        "containing_teams": 34,
+        "score": 14,
+        "leads": 8,
+        "deployed": 31
+      },
+      "N02-A": {
+        "containing_teams": 28,
+        "score": 13,
+        "leads": 11,
+        "deployed": 22
+      },
+      "N02-B": {
+        "containing_teams": 37,
+        "score": 13,
+        "leads": 9,
+        "deployed": 33
+      },
+      "N03-B": {
+        "containing_teams": 33,
+        "score": 17,
+        "leads": 3,
+        "deployed": 29
+      },
+      "N04-B": {
+        "containing_teams": 31,
+        "score": 15,
+        "leads": 4,
+        "deployed": 23
+      },
+      "N11-B": {
+        "containing_teams": 35,
+        "score": 20,
+        "leads": 6,
+        "deployed": 29
+      },
+      "N06-B": {
+        "containing_teams": 23,
+        "score": 12,
+        "leads": 5,
+        "deployed": 20
+      },
+      "N01-A": {
+        "containing_teams": 39,
+        "score": 16,
+        "leads": 12,
+        "deployed": 36
+      },
+      "N07-A": {
+        "containing_teams": 37,
+        "score": 18,
+        "leads": 8,
+        "deployed": 33
+      },
+      "N09-B": {
+        "containing_teams": 26,
+        "score": 13,
+        "leads": 9,
+        "deployed": 22
+      },
+      "N12-A": {
+        "containing_teams": 18,
+        "score": 8,
+        "leads": 6,
+        "deployed": 15
+      },
+      "N10-B": {
+        "containing_teams": 30,
+        "score": 14,
+        "leads": 4,
+        "deployed": 24
+      },
+      "N08-A": {
+        "containing_teams": 31,
+        "score": 14,
+        "leads": 8,
+        "deployed": 30
+      },
+      "N07-B": {
+        "containing_teams": 32,
+        "score": 20,
+        "leads": 3,
+        "deployed": 26
+      },
+      "N05-A": {
+        "containing_teams": 22,
+        "score": 11,
+        "leads": 10,
+        "deployed": 22
+      },
+      "N04-A": {
+        "containing_teams": 37,
+        "score": 18,
+        "leads": 8,
+        "deployed": 31
+      },
+      "N11-A": {
+        "containing_teams": 36,
+        "score": 16,
+        "leads": 10,
+        "deployed": 31
+      },
+      "N08-B": {
+        "containing_teams": 30,
+        "score": 17,
+        "leads": 11,
+        "deployed": 27
+      },
+      "N09-A": {
+        "containing_teams": 37,
+        "score": 21,
+        "leads": 19,
+        "deployed": 34
+      }
+    },
+    "types": {
+      "fire": {
+        "containing_teams": 121,
+        "score": 55
+      },
+      "light": {
+        "containing_teams": 115,
+        "score": 58
+      },
+      "earth": {
+        "containing_teams": 116,
+        "score": 59
+      },
+      "air": {
+        "containing_teams": 120,
+        "score": 61
+      },
+      "dark": {
+        "containing_teams": 116,
+        "score": 56
+      },
+      "water": {
+        "containing_teams": 116,
+        "score": 60
+      }
+    },
+    "comeback": {
+      "eligible": 100,
+      "wins": 43,
+      "draws": 0
+    },
+    "critical": {
+      "executed_attacks": 2156,
+      "hits": 68,
+      "immediate_KO_threshold_changed": null
+    },
+    "first_damaging_action": {
+      "eligible": 100,
+      "score": 64
+    },
+    "turns": [
+      10,
+      11,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      13,
+      13,
+      13,
+      13,
+      13,
+      13,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      15,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      20,
+      20,
+      21,
+      21,
+      22
+    ],
+    "median_turns": 16,
+    "mean_turns": 15.78,
+    "elapsed_seconds": 27.690482063,
+    "note": "One stable policy pairing per report. Containing-team scores are not duel strength. Threshold-changing criticals require event-by-event counterfactual replay; this report leaves them unmeasured. Human pace/fun and severe team matchup advantage are not inferred."
+  },
+  "records": [
+    {
+      "fixture": 0,
+      "seed": "9fdf1641de3a69404b7126913cb816a475c5d33f453fdeb0c8527f152b773bfb",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N01-B",
+          "N12-B",
+          "N05-B",
+          "N06-A"
+        ],
+        [
+          "N03-A",
+          "N10-A",
+          "N06-A",
+          "N02-A"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 1,
+      "seed": "a8c37fa9651aed78e0ea37716660c19f6e8bb5185896b720a15418d9c70289f6",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N05-B",
+          "N02-B",
+          "N03-B",
+          "N04-B"
+        ],
+        [
+          "N11-B",
+          "N12-B",
+          "N06-B",
+          "N03-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 2,
+      "seed": "dc87943a3b4aa35e933696e9e2624ac5a090c2b99945efabd27f40bad32b2efd",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N06-B",
+          "N05-B",
+          "N10-A",
+          "N01-A"
+        ],
+        [
+          "N02-B",
+          "N03-A",
+          "N05-B",
+          "N07-A"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 3,
+      "seed": "64131058a3d1978219adabbc4c293e90f4e7a44b043b9645f566195d91461ef8",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N03-B",
+          "N10-A",
+          "N01-B",
+          "N09-B"
+        ],
+        [
+          "N03-B",
+          "N05-B",
+          "N01-A",
+          "N12-A"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 4,
+      "seed": "3439723810cf47b27462299be8e70858ccee6c710821b69968155d0babd16a30",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N10-B",
+          "N07-A",
+          "N11-B",
+          "N09-B"
+        ],
+        [
+          "N05-B",
+          "N02-B",
+          "N03-A",
+          "N12-B"
+        ]
+      ],
+      "turns": 12,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 5,
+      "seed": "78f640842b1b55a72173d73f6c76a98a0f94dbd796409da905cdae788725da9d",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N04-B",
+          "N10-B",
+          "N12-B",
+          "N05-B"
+        ],
+        [
+          "N08-A",
+          "N07-B",
+          "N05-A",
+          "N10-A"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 6,
+      "seed": "c9565b4ad2d0b63dc67afb1cd1390cdb35f943b6d5d3c676f877a16f397f99a0",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N06-B",
+          "N04-A",
+          "N10-A",
+          "N03-B"
+        ],
+        [
+          "N02-B",
+          "N07-A",
+          "N01-B",
+          "N04-A"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 7,
+      "seed": "f36fcadb688d22304f49c4032e3bdefef79cc82d70af5a6d64e047725788116d",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N10-A",
+          "N11-B",
+          "N06-B",
+          "N07-B"
+        ],
+        [
+          "N05-B",
+          "N07-B",
+          "N03-B",
+          "N10-B"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 8,
+      "seed": "c5dcd1d080021b276118d2f8fa996f7b520c878177f6573494207c428b603778",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N11-A",
+          "N01-B",
+          "N02-B",
+          "N09-B"
+        ],
+        [
+          "N06-A",
+          "N08-A",
+          "N01-B",
+          "N09-B"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 9,
+      "seed": "8d7f412e6d0ac3a3f9575d283234b29580c51dbeb09da1810fb572eb108d9d50",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N03-A",
+          "N06-B",
+          "N11-A",
+          "N10-A"
+        ],
+        [
+          "N08-B",
+          "N11-A",
+          "N10-B",
+          "N01-A"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 10,
+      "seed": "422e903b81058b5deca2ad7daf5620565f8871d96dc35c70a86e8a8edd899ba8",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N05-A",
+          "N03-B",
+          "N10-A",
+          "N01-B"
+        ],
+        [
+          "N11-B",
+          "N01-A",
+          "N03-A",
+          "N02-A"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 11,
+      "seed": "1e5391b7823dc5b0555b7ca2faa2b15a2172f5d6df0e922bcf394de57efaf780",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N02-A",
+          "N01-A",
+          "N11-B",
+          "N10-B"
+        ],
+        [
+          "N05-B",
+          "N04-A",
+          "N07-B",
+          "N06-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 12,
+      "seed": "a9bcad8a3222b7767689e18847f5a1d5de454490f496a98f3a2db9bc368a98d3",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N09-A",
+          "N01-B",
+          "N07-A",
+          "N02-B"
+        ],
+        [
+          "N06-A",
+          "N09-A",
+          "N02-A",
+          "N05-B"
+        ]
+      ],
+      "turns": 18,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 13,
+      "seed": "ff48ff4e50dbeaeb32ebbf94e9d459d8a2f1422eaf3a7a258419513632f2f081",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N09-B",
+          "N12-B",
+          "N11-A",
+          "N02-A"
+        ],
+        [
+          "N07-B",
+          "N01-A",
+          "N09-B",
+          "N11-B"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 14,
+      "seed": "079e1c83d456f5f39e16b2e7f670fc4bd57d1fd5ce090e3b5c5a2fd7cdc4feb0",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N12-B",
+          "N05-A",
+          "N08-A",
+          "N11-B"
+        ],
+        [
+          "N12-B",
+          "N08-A",
+          "N06-B",
+          "N03-A"
+        ]
+      ],
+      "turns": 19,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 15,
+      "seed": "f2c3691f312b091f70487c6f932af045da5a851fec28558e68a693e25048dc3e",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N08-A",
+          "N01-B",
+          "N07-B",
+          "N09-B"
+        ],
+        [
+          "N06-A",
+          "N02-B",
+          "N09-A",
+          "N04-B"
+        ]
+      ],
+      "turns": 18,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 16,
+      "seed": "5910ba3e685277bbbb84ed340ae635a7a1fa876c78d65f7ee07b0958a9961fa6",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N11-A",
+          "N07-B",
+          "N01-A",
+          "N04-B"
+        ],
+        [
+          "N04-A",
+          "N11-B",
+          "N10-B",
+          "N08-B"
+        ]
+      ],
+      "turns": 19,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 17,
+      "seed": "cdf94f32aea67d6c46a12a81a83c4d657a39bf8b5598dc55efc53a5a605b1b1a",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N04-B",
+          "N06-A",
+          "N01-A",
+          "N07-A"
+        ],
+        [
+          "N05-A",
+          "N10-B",
+          "N03-A",
+          "N09-A"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 18,
+      "seed": "0bb0b2f4aa5358aeaf3cffba121a5088eda0d95ca0ec93f49745adef89b5b030",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N01-B",
+          "N09-A",
+          "N12-A",
+          "N05-B"
+        ],
+        [
+          "N09-A",
+          "N01-A",
+          "N08-A",
+          "N12-B"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 19,
+      "seed": "63041a1e8289c91c40cde731c9c152dcd85a7cd4b6f7bba223c0fa8635389621",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N06-A",
+          "N08-B",
+          "N05-A",
+          "N02-B"
+        ],
+        [
+          "N02-B",
+          "N11-B",
+          "N08-A",
+          "N01-B"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 20,
+      "seed": "5e5d32165a6ca98b32498c83e7ed241e4f82702e1b7118f2fada9f276a77a62a",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N04-A",
+          "N03-A",
+          "N08-A",
+          "N06-B"
+        ],
+        [
+          "N09-B",
+          "N06-A",
+          "N08-B",
+          "N03-B"
+        ]
+      ],
+      "turns": 13,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 21,
+      "seed": "bd8c045b47b37347dc7aa00997a6975344bb0cefe63c6af69fd24bc17d0ac2e3",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N02-B",
+          "N07-B",
+          "N05-A",
+          "N03-A"
+        ],
+        [
+          "N02-A",
+          "N11-B",
+          "N06-B",
+          "N05-B"
+        ]
+      ],
+      "turns": 18,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 22,
+      "seed": "60efa7065140a2ae7e358cfe8fe5adc505a3535c29b292f7b86cbb1fe3021e93",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N11-A",
+          "N01-A",
+          "N12-B",
+          "N03-A"
+        ],
+        [
+          "N05-B",
+          "N11-A",
+          "N04-A",
+          "N03-A"
+        ]
+      ],
+      "turns": 11,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 23,
+      "seed": "f164d489d556580a5079bfe9a834be31e4d964db5cb810cbbd4043a561998434",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N05-B",
+          "N04-A",
+          "N02-A",
+          "N01-A"
+        ],
+        [
+          "N02-A",
+          "N07-A",
+          "N12-B",
+          "N01-B"
+        ]
+      ],
+      "turns": 12,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 24,
+      "seed": "4c9db5fdf3d7478df980513ba7d16d9128321c3e4dd7889a333b1bfc422e6626",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N11-A",
+          "N02-B",
+          "N05-B",
+          "N12-B"
+        ],
+        [
+          "N11-B",
+          "N08-A",
+          "N01-A",
+          "N04-B"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 25,
+      "seed": "97ea129a0ee6f0beba1912d47d7d22b0f06381df11d77d7b434220311b81a4f5",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N06-A",
+          "N02-A",
+          "N03-A",
+          "N11-B"
+        ],
+        [
+          "N10-B",
+          "N04-A",
+          "N11-B",
+          "N09-B"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 26,
+      "seed": "bc0007d234cdf6c305fe5d55540c9637912ab1bb2a49b05d4a3ea3a99df199ba",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N07-B",
+          "N06-A",
+          "N09-A",
+          "N03-B"
+        ],
+        [
+          "N12-A",
+          "N09-A",
+          "N07-A",
+          "N11-A"
+        ]
+      ],
+      "turns": 12,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 27,
+      "seed": "85fa343890d6e8c1a78678381c8d0a84abfc35a5e839e576a900214654cd4dba",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N01-A",
+          "N03-A",
+          "N11-A",
+          "N06-B"
+        ],
+        [
+          "N02-B",
+          "N06-B",
+          "N07-B",
+          "N12-B"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 28,
+      "seed": "fe5988eeba25ea30a08911dd57e5bab73db659d8ba0ddf986396c1000e8b2dec",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N08-A",
+          "N03-B",
+          "N05-B",
+          "N01-B"
+        ],
+        [
+          "N08-A",
+          "N03-A",
+          "N10-A",
+          "N02-B"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 0,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 29,
+      "seed": "d8cfccfd683cc1675588b5006382ee554e0d3f98d65afc0f1deb123a1913c47d",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N09-A",
+          "N01-A",
+          "N04-B",
+          "N12-A"
+        ],
+        [
+          "N08-B",
+          "N01-A",
+          "N05-A",
+          "N03-A"
+        ]
+      ],
+      "turns": 22,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 30,
+      "seed": "7a452178d65664376970f7d517d70501a23d5847018865d1323a8f678e65ff80",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N02-B",
+          "N09-B",
+          "N12-B",
+          "N08-A"
+        ],
+        [
+          "N01-B",
+          "N11-A",
+          "N09-B",
+          "N05-B"
+        ]
+      ],
+      "turns": 21,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 31,
+      "seed": "5d1a3c1605194916e2dc63052697ec1cb5bfc06bd8d93e7618284036f4a1d5b0",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N02-B",
+          "N08-A",
+          "N03-B",
+          "N12-A"
+        ],
+        [
+          "N03-A",
+          "N01-A",
+          "N04-B",
+          "N10-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 32,
+      "seed": "fb20c52009119b5f295f18cb4f9091fa47f20e7288b848e89da3d1cea6df3e9e",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N10-B",
+          "N04-B",
+          "N06-A",
+          "N05-B"
+        ],
+        [
+          "N12-B",
+          "N08-B",
+          "N09-B",
+          "N04-B"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 33,
+      "seed": "9ac6f5f5bcddeb3e7782fae024f5e3341714c4505b0a99ea69f457d247c4cfa7",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N04-A",
+          "N05-A",
+          "N01-A",
+          "N11-A"
+        ],
+        [
+          "N07-A",
+          "N06-B",
+          "N05-B",
+          "N11-A"
+        ]
+      ],
+      "turns": 18,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 34,
+      "seed": "76598bb074b986bc74f8deda15237b978628d08c9fa879f27a98bcbb7972cafc",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N08-A",
+          "N02-B",
+          "N04-B",
+          "N07-A"
+        ],
+        [
+          "N06-A",
+          "N08-B",
+          "N12-B",
+          "N07-A"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 35,
+      "seed": "4038b898f352d45c205ef0aad87d64c2ce4f95164f0f53227b605389aa3309f5",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N10-B",
+          "N03-A",
+          "N07-A",
+          "N04-A"
+        ],
+        [
+          "N02-B",
+          "N11-A",
+          "N05-B",
+          "N08-A"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 0,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 36,
+      "seed": "a2fe670ff36c06df98f14ecd1fe7ec66f24b4263d1bbb6bb82c21da3a4638dc0",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N04-B",
+          "N01-A",
+          "N03-A",
+          "N10-B"
+        ],
+        [
+          "N07-A",
+          "N03-A",
+          "N02-A",
+          "N10-B"
+        ]
+      ],
+      "turns": 13,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 37,
+      "seed": "b21d81961456ce14da7169bf9430f36a4e5a209da976a81f94ee047d10497dd4",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N10-A",
+          "N07-B",
+          "N01-A",
+          "N04-B"
+        ],
+        [
+          "N05-A",
+          "N06-A",
+          "N03-A",
+          "N09-A"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 38,
+      "seed": "defec8713152562599af5ad63f1150bae7f4d4074f90e11ec340f4f34d84e44b",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N05-A",
+          "N07-A",
+          "N02-A",
+          "N06-A"
+        ],
+        [
+          "N11-B",
+          "N04-A",
+          "N01-A",
+          "N10-A"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 0,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 39,
+      "seed": "01ce8e02a1f09b7ab188747fba531d4522dd2ec83f2d729b49119f2720665949",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N07-B",
+          "N08-A",
+          "N01-A",
+          "N09-B"
+        ],
+        [
+          "N12-B",
+          "N07-B",
+          "N05-B",
+          "N03-B"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 40,
+      "seed": "f808c0030f98569684b49e418d821064e42141492a778c05e615115ba9627c49",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N02-B",
+          "N07-B",
+          "N11-A",
+          "N04-A"
+        ],
+        [
+          "N11-B",
+          "N07-B",
+          "N02-A",
+          "N04-A"
+        ]
+      ],
+      "turns": 13,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 41,
+      "seed": "4eecb6ec40de97275fe95b017cea3e5ab3a27147e8173541866d65a08c8b4adc",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N10-A",
+          "N11-B",
+          "N06-B",
+          "N08-B"
+        ],
+        [
+          "N06-A",
+          "N05-B",
+          "N03-B",
+          "N11-A"
+        ]
+      ],
+      "turns": 18,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 42,
+      "seed": "ccf7667d87dd6793c8b6d1e5794aa5ed4649239ffa87342b50d74bbc052d4d86",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N06-A",
+          "N10-B",
+          "N04-B",
+          "N09-A"
+        ],
+        [
+          "N02-A",
+          "N05-A",
+          "N04-B",
+          "N03-B"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 0,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 43,
+      "seed": "1a22b7830f362997403f6254d0e3f0f49949b2ae7a5d244fe362e86757232cab",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N12-B",
+          "N09-A",
+          "N02-B",
+          "N07-A"
+        ],
+        [
+          "N04-A",
+          "N12-A",
+          "N03-B",
+          "N06-A"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 44,
+      "seed": "1d75e9dbac62c613f70ff4f04088a8536c6c39f2c4e49c20952e62341f1c6486",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N11-A",
+          "N12-A",
+          "N02-A",
+          "N03-B"
+        ],
+        [
+          "N01-A",
+          "N09-B",
+          "N03-B",
+          "N04-B"
+        ]
+      ],
+      "turns": 18,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 45,
+      "seed": "db2fb23cd7dbdef72af6efc91a66a7c716f800bb8b040e0ade0b473e2b1e7e4e",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N02-A",
+          "N07-A",
+          "N10-B",
+          "N08-B"
+        ],
+        [
+          "N10-B",
+          "N05-B",
+          "N01-B",
+          "N11-A"
+        ]
+      ],
+      "turns": 10,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 46,
+      "seed": "c83819551866f9f95267e2fd0067d0a84ddb4d955541de9a41779935481e6bf4",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N04-B",
+          "N02-B",
+          "N08-A",
+          "N05-B"
+        ],
+        [
+          "N07-B",
+          "N08-B",
+          "N09-A",
+          "N01-A"
+        ]
+      ],
+      "turns": 12,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 47,
+      "seed": "3fa272a7eec89677d42309030ac1842eec8e06017b43c130f65f08ff606cfe49",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N10-A",
+          "N07-A",
+          "N03-A",
+          "N04-B"
+        ],
+        [
+          "N11-B",
+          "N03-A",
+          "N01-A",
+          "N09-A"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 48,
+      "seed": "56ab34e1b32a714d2c660b883cacd3f6543febd3000a4732e5b111efbadb2b66",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N10-B",
+          "N02-A",
+          "N05-A",
+          "N11-A"
+        ],
+        [
+          "N03-A",
+          "N12-A",
+          "N04-B",
+          "N07-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 49,
+      "seed": "882f35e00ebd6803892be01b735483e63e1e0c4656a18df6222ff60048eb5b1d",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N03-A",
+          "N10-B",
+          "N09-B",
+          "N11-A"
+        ],
+        [
+          "N01-A",
+          "N08-A",
+          "N11-B",
+          "N09-A"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 50,
+      "seed": "8ff9d56d6fb9e8090a19c2da0d87e4ca4e29588c2089f4eee95e20e25f3aa200",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N06-A",
+          "N09-A",
+          "N08-A",
+          "N01-A"
+        ],
+        [
+          "N02-B",
+          "N12-B",
+          "N08-B",
+          "N01-B"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 51,
+      "seed": "d927abf13a53857fd40204c2f8f1c0720427f942c798d892f6e9f752c8c6367a",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N03-B",
+          "N08-B",
+          "N02-A",
+          "N06-A"
+        ],
+        [
+          "N10-A",
+          "N08-B",
+          "N07-B",
+          "N04-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 52,
+      "seed": "8e171fdba890e66da47e7de38de998fec07995fc99a2dcc59d82433bec9f9d91",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N07-A",
+          "N08-B",
+          "N06-B",
+          "N11-A"
+        ],
+        [
+          "N08-B",
+          "N01-B",
+          "N04-A",
+          "N12-A"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 53,
+      "seed": "92b52f1e4071b7613b565203f42196e5644bde0668f26fe3aa7ad8567df70842",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N12-B",
+          "N08-A",
+          "N05-B",
+          "N09-B"
+        ],
+        [
+          "N12-B",
+          "N10-B",
+          "N07-B",
+          "N06-A"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 54,
+      "seed": "ee7fd45facf660fe3b11c91391786757cc21b23512fbe180d990d4069909676d",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N05-B",
+          "N12-A",
+          "N06-A",
+          "N02-B"
+        ],
+        [
+          "N01-B",
+          "N09-A",
+          "N04-A",
+          "N11-A"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 55,
+      "seed": "0c5d49bceec3e95bc601f2836fd4caa45cad363b47c778552d81adaed1b0f892",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N11-B",
+          "N01-B",
+          "N04-A",
+          "N06-B"
+        ],
+        [
+          "N02-B",
+          "N08-A",
+          "N05-B",
+          "N09-A"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 0,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 56,
+      "seed": "e666b3ce1d89618ebd4f8f0fac7ee7262e7f0583bc1b519dc959a52b5ea2d8f3",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N04-A",
+          "N11-B",
+          "N03-B",
+          "N06-A"
+        ],
+        [
+          "N09-A",
+          "N06-A",
+          "N08-B",
+          "N05-B"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 57,
+      "seed": "21f055d2a4945a47f66802179cb94276dd8d1776b4612c513eee5b69abe98503",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N02-B",
+          "N07-A",
+          "N09-A",
+          "N05-A"
+        ],
+        [
+          "N11-B",
+          "N06-A",
+          "N03-B",
+          "N08-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 0,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 58,
+      "seed": "fb2b3de833011b7137956b8fd45753a71a55045718d7528c719074dfee559ebe",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N10-B",
+          "N06-A",
+          "N07-A",
+          "N05-A"
+        ],
+        [
+          "N02-A",
+          "N07-A",
+          "N06-B",
+          "N09-A"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 59,
+      "seed": "ebda64c0e4ac16333f458ae5a8b9a079bf8c3132769025020650556927071eea",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N01-B",
+          "N02-B",
+          "N04-A",
+          "N09-A"
+        ],
+        [
+          "N03-A",
+          "N11-B",
+          "N09-A",
+          "N08-A"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 60,
+      "seed": "dfc1c769b9c828d5d47e195467fe1c2a52bac0e3f6e4b41eab10b4b7cb4be23c",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N07-A",
+          "N11-A",
+          "N12-B",
+          "N02-B"
+        ],
+        [
+          "N02-B",
+          "N01-A",
+          "N09-B",
+          "N12-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 61,
+      "seed": "f83035660ea5fb9cf27f4719e357b42769b61ba20600d1cc6694be0efef81032",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N09-A",
+          "N12-A",
+          "N08-B",
+          "N02-B"
+        ],
+        [
+          "N03-B",
+          "N11-A",
+          "N07-B",
+          "N01-B"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 3,
+      "bot_draws": []
+    },
+    {
+      "fixture": 62,
+      "seed": "baae8b3f8a152e0632114367f01de786693e761c479771e5ad7397a9dc425c19",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N04-B",
+          "N05-B",
+          "N07-A",
+          "N10-A"
+        ],
+        [
+          "N10-A",
+          "N03-B",
+          "N04-A",
+          "N01-A"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 63,
+      "seed": "338fb8b249a293a5a58a16af220a0e00d4742e37cc11d3603443505ff3b63d72",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N08-A",
+          "N10-B",
+          "N04-A",
+          "N05-A"
+        ],
+        [
+          "N11-B",
+          "N10-B",
+          "N05-A",
+          "N03-A"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 64,
+      "seed": "3e40dcb3de010423a89084c57d2fc834c11b29c4f80ce1b5325aaaf086295e8f",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N10-A",
+          "N01-A",
+          "N12-B",
+          "N07-A"
+        ],
+        [
+          "N07-A",
+          "N01-B",
+          "N11-A",
+          "N09-B"
+        ]
+      ],
+      "turns": 13,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 65,
+      "seed": "44ab551e7358ce2746505639cf12d290d632f00b6651e4d8ba7f9093727d704e",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N08-B",
+          "N06-B",
+          "N05-B",
+          "N04-A"
+        ],
+        [
+          "N06-B",
+          "N04-A",
+          "N07-A",
+          "N05-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 66,
+      "seed": "7de24d2a36e97165cf5ff0d604cbbb3ea4b2b6e66c780e77a24514ed032e1932",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N09-A",
+          "N07-B",
+          "N05-B",
+          "N02-A"
+        ],
+        [
+          "N11-A",
+          "N06-A",
+          "N07-B",
+          "N04-B"
+        ]
+      ],
+      "turns": 18,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 67,
+      "seed": "a480fb5a24f037219022f4f2f040d07c2658a4eb43cf2ff6f61d5170ce011d57",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N06-A",
+          "N11-B",
+          "N05-B",
+          "N01-A"
+        ],
+        [
+          "N03-B",
+          "N02-A",
+          "N11-B",
+          "N10-A"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 68,
+      "seed": "765c9be156b7c0e433a593cd7c03f2d1e4b89c25bcf63e4d9d10201400744b5a",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N07-B",
+          "N05-B",
+          "N10-B",
+          "N02-B"
+        ],
+        [
+          "N08-B",
+          "N05-B",
+          "N03-A",
+          "N04-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 69,
+      "seed": "bd79eed16bfabee8ff15175d2401165a79541d3e7d2d5210d874cdc033263006",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N04-B",
+          "N11-A",
+          "N01-B",
+          "N10-B"
+        ],
+        [
+          "N10-A",
+          "N08-A",
+          "N04-A",
+          "N09-A"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 70,
+      "seed": "d19f5602bd0705d8492fc0e5dff158c3ba939507d2d762e14cad14a40d088d18",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N12-B",
+          "N03-B",
+          "N06-A",
+          "N09-A"
+        ],
+        [
+          "N02-B",
+          "N01-B",
+          "N09-B",
+          "N07-A"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 71,
+      "seed": "87107a98d1877277177558578880742efb783bad4b93b353ca58289e918c476c",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N12-A",
+          "N10-A",
+          "N03-B",
+          "N01-A"
+        ],
+        [
+          "N10-B",
+          "N06-A",
+          "N03-A",
+          "N12-B"
+        ]
+      ],
+      "turns": 13,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 72,
+      "seed": "d4de78933d166bb492e8237d2c94de30c95d2164adf78634959863b1d2bca0cf",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N03-B",
+          "N11-A",
+          "N02-A",
+          "N07-A"
+        ],
+        [
+          "N06-A",
+          "N04-A",
+          "N02-B",
+          "N07-B"
+        ]
+      ],
+      "turns": 19,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 73,
+      "seed": "d0d973f8138e36a61c3102890bd52bcb932cb23ab173af17491c320ed154a37b",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N09-A",
+          "N01-B",
+          "N07-A",
+          "N04-B"
+        ],
+        [
+          "N12-A",
+          "N03-B",
+          "N06-A",
+          "N05-B"
+        ]
+      ],
+      "turns": 13,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 74,
+      "seed": "4a0601096c83d9b4d59deb14a5a8ba2ead09bcf5cd89799a61b7891f26f6425d",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N01-B",
+          "N07-B",
+          "N02-B",
+          "N12-B"
+        ],
+        [
+          "N05-B",
+          "N02-B",
+          "N10-A",
+          "N03-A"
+        ]
+      ],
+      "turns": 12,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 75,
+      "seed": "9d13e29640869c2d352db3a19ae25b55811ab3633510641c13170f90ddf175c8",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N07-A",
+          "N05-A",
+          "N12-B",
+          "N01-A"
+        ],
+        [
+          "N03-B",
+          "N12-B",
+          "N10-B",
+          "N06-A"
+        ]
+      ],
+      "turns": 19,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 76,
+      "seed": "578d944219da093834d3248f36a08b321a261afaade05fd447afeebdc9687304",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N06-A",
+          "N03-A",
+          "N08-B",
+          "N12-B"
+        ],
+        [
+          "N05-B",
+          "N10-A",
+          "N04-A",
+          "N01-B"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 77,
+      "seed": "c6fa855de31f515db305f80f50e1e803c91c1e8ae58997093ee21a4b966c7204",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N11-A",
+          "N01-B",
+          "N02-A",
+          "N06-A"
+        ],
+        [
+          "N12-A",
+          "N10-B",
+          "N04-A",
+          "N11-A"
+        ]
+      ],
+      "turns": 19,
+      "outcome": {
+        "winner": 0,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 78,
+      "seed": "84f06b38045d69a1806aaee1045c56dcc830d7767f6b481025705d53f09c2c8b",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N01-A",
+          "N06-A",
+          "N04-A",
+          "N02-B"
+        ],
+        [
+          "N01-B",
+          "N08-B",
+          "N09-B",
+          "N06-A"
+        ]
+      ],
+      "turns": 20,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 79,
+      "seed": "c1202521633d804748407198c33fc5061de1a407c1292dda96ddd8165ca79a14",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N06-A",
+          "N05-A",
+          "N10-A",
+          "N08-A"
+        ],
+        [
+          "N03-B",
+          "N04-A",
+          "N11-A",
+          "N08-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 80,
+      "seed": "af1f8fe34ea44775a29d7d5ccd133279b40610e2b8f1527528688694bacb0615",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N05-B",
+          "N07-A",
+          "N02-A",
+          "N04-A"
+        ],
+        [
+          "N09-A",
+          "N10-A",
+          "N04-A",
+          "N12-B"
+        ]
+      ],
+      "turns": 19,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 81,
+      "seed": "108143d6b242147469130b23fa37b40c15facb31e89532706cd82aba7be553d6",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N08-A",
+          "N06-B",
+          "N09-A",
+          "N10-A"
+        ],
+        [
+          "N03-B",
+          "N07-A",
+          "N09-B",
+          "N08-B"
+        ]
+      ],
+      "turns": 12,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 82,
+      "seed": "3361e9dd35a7150598cca066331480819c03faf8a172de2066fa69706adaa37a",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N09-B",
+          "N06-A",
+          "N11-A",
+          "N01-A"
+        ],
+        [
+          "N11-B",
+          "N06-B",
+          "N04-B",
+          "N05-B"
+        ]
+      ],
+      "turns": 21,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 83,
+      "seed": "1b939f8d550790164ff8e5344cfc31584fd5843088642472686e6697ef0dc0f7",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N04-A",
+          "N10-A",
+          "N07-A",
+          "N06-A"
+        ],
+        [
+          "N06-A",
+          "N03-A",
+          "N01-B",
+          "N12-B"
+        ]
+      ],
+      "turns": 15,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 84,
+      "seed": "991a487fc0fc3c569f4e9fd41d01be780d614066c3a7b881e5f0eee0f6079956",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N06-A",
+          "N03-A",
+          "N05-B",
+          "N07-A"
+        ],
+        [
+          "N01-A",
+          "N10-A",
+          "N07-B",
+          "N08-A"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 85,
+      "seed": "06e8e106b5d0f5af6c6b8e372d91fe8eaf50371327669f44625637c0c4ce30a0",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N12-B",
+          "N10-B",
+          "N02-A",
+          "N01-A"
+        ],
+        [
+          "N04-B",
+          "N07-A",
+          "N08-A",
+          "N06-A"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 86,
+      "seed": "0c0682ea5de770d02e9b81bfbf33bd2beb3360565adad83b7693c2ad67980585",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N07-A",
+          "N05-B",
+          "N06-B",
+          "N01-A"
+        ],
+        [
+          "N03-A",
+          "N09-B",
+          "N11-A",
+          "N02-B"
+        ]
+      ],
+      "turns": 19,
+      "outcome": {
+        "winner": 0,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 87,
+      "seed": "1296cac14328db8a09f4d6848e58a1ed2d8a72bf4a653a6b28f7787a2a90b5b8",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N12-A",
+          "N04-A",
+          "N03-B",
+          "N10-A"
+        ],
+        [
+          "N05-A",
+          "N02-A",
+          "N06-A",
+          "N12-B"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 88,
+      "seed": "816cd3488ec6e5dae15a394dfeb003c3f0fc7ef51cc41a559585041908e9349d",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N11-B",
+          "N06-B",
+          "N03-A",
+          "N02-A"
+        ],
+        [
+          "N05-A",
+          "N11-B",
+          "N09-A",
+          "N07-B"
+        ]
+      ],
+      "turns": 19,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 89,
+      "seed": "8a4a1bb937b63d82b20fe942c73aca230485433efafe06db4f70dc67d1e2308b",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N03-A",
+          "N10-A",
+          "N08-B",
+          "N12-B"
+        ],
+        [
+          "N10-A",
+          "N02-B",
+          "N08-A",
+          "N07-B"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 90,
+      "seed": "2c055c4147f426890752c0110a924c477dbcd56ae7bf47d35a94b258cb471035",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N05-B",
+          "N11-B",
+          "N08-B",
+          "N06-A"
+        ],
+        [
+          "N06-B",
+          "N11-A",
+          "N07-B",
+          "N05-B"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 91,
+      "seed": "53bc22c842bb21eb2cd2f715f4ecf82db4b170df6dd6ca28821d3f6f36a3a74e",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N08-B",
+          "N10-A",
+          "N01-A",
+          "N04-A"
+        ],
+        [
+          "N04-B",
+          "N09-A",
+          "N03-A",
+          "N06-A"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 92,
+      "seed": "640d3e4c050d7299f78c8587fbb131b01a7d42a87623288cf3cc6e265fadf48c",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N09-A",
+          "N04-A",
+          "N12-A",
+          "N06-A"
+        ],
+        [
+          "N01-B",
+          "N12-A",
+          "N10-A",
+          "N03-B"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 93,
+      "seed": "66630b6912c2ff13ecb45b965b119166585dde93d0d2392398641aeb70554f35",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N01-B",
+          "N05-B",
+          "N07-B",
+          "N06-A"
+        ],
+        [
+          "N09-B",
+          "N03-A",
+          "N11-B",
+          "N10-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 0,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 94,
+      "seed": "cdffc366a726289059676c0dea0dcb5bcd3de769a6c343e427638c1c2812d877",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N07-B",
+          "N11-A",
+          "N09-B",
+          "N08-A"
+        ],
+        [
+          "N11-B",
+          "N09-A",
+          "N08-B",
+          "N01-A"
+        ]
+      ],
+      "turns": 19,
+      "outcome": {
+        "winner": 0,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 95,
+      "seed": "3d53c6a03057b2275765c7e57e25fe1f300a5640b7058a4855ea47d7b1951d86",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N01-B",
+          "N04-B",
+          "N06-A",
+          "N07-A"
+        ],
+        [
+          "N05-A",
+          "N11-B",
+          "N10-A",
+          "N09-A"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 2,
+      "bot_draws": []
+    },
+    {
+      "fixture": 96,
+      "seed": "97fade58ab46b2f782390e72d91679eac83f8ba7e37b61db8503e73de94bbe49",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N05-B",
+          "N10-B",
+          "N07-B",
+          "N04-A"
+        ],
+        [
+          "N02-A",
+          "N11-A",
+          "N07-A",
+          "N04-B"
+        ]
+      ],
+      "turns": 14,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 97,
+      "seed": "6038155ff62eb0eb57bb8aa21582a0bc87e87263dca56cc0ebf2874f6e2e7b27",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N02-A",
+          "N01-B",
+          "N03-B",
+          "N11-B"
+        ],
+        [
+          "N08-B",
+          "N09-A",
+          "N01-B",
+          "N05-A"
+        ]
+      ],
+      "turns": 12,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 98,
+      "seed": "a49878b7dd48a88483721601c8b3fe2e6d46876f43f1c794814c4f0c19507806",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N09-A",
+          "N06-A",
+          "N08-A",
+          "N12-B"
+        ],
+        [
+          "N06-A",
+          "N11-B",
+          "N12-A",
+          "N08-B"
+        ]
+      ],
+      "turns": 20,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 1,
+      "bot_draws": []
+    },
+    {
+      "fixture": 99,
+      "seed": "1dabc139350d5e9319d2a50e2efb5f2488e4c0c27f991f6cea96a0c1920d6173",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N04-A",
+          "N02-B",
+          "N09-B",
+          "N12-B"
+        ],
+        [
+          "N10-A",
+          "N04-B",
+          "N06-A",
+          "N11-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    }
+  ]
+}

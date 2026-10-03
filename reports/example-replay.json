@@ -1,0 +1,2853 @@
+{
+  "game": {
+    "format_version": "lantern-replay-v1",
+    "content_version": "lantern-content-v1",
+    "rules_version": "lantern-rules-v1",
+    "profile": "v1-independent-4",
+    "rng_version": "hmac-sha256-counter-u32-v1",
+    "seed": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f",
+    "counters": {
+      "team:p0:offer0": 1,
+      "order:p0:offer0": 3,
+      "team:p1:offer0": 1,
+      "order:p1:offer0": 3,
+      "battle:critical": 25,
+      "battle:tie": 2
+    },
+    "trace": [
+      {
+        "stream": "team:p0:offer0",
+        "counter": 0,
+        "word": 4069332755,
+        "bound": 6109,
+        "rejected": false,
+        "result": 5675
+      },
+      {
+        "stream": "order:p0:offer0",
+        "counter": 0,
+        "word": 3355832035,
+        "bound": 4,
+        "rejected": false,
+        "result": 3
+      },
+      {
+        "stream": "order:p0:offer0",
+        "counter": 1,
+        "word": 1624553879,
+        "bound": 3,
+        "rejected": false,
+        "result": 2
+      },
+      {
+        "stream": "order:p0:offer0",
+        "counter": 2,
+        "word": 1965159035,
+        "bound": 2,
+        "rejected": false,
+        "result": 1
+      },
+      {
+        "stream": "team:p1:offer0",
+        "counter": 0,
+        "word": 3030124278,
+        "bound": 6109,
+        "rejected": false,
+        "result": 5297
+      },
+      {
+        "stream": "order:p1:offer0",
+        "counter": 0,
+        "word": 746462875,
+        "bound": 4,
+        "rejected": false,
+        "result": 3
+      },
+      {
+        "stream": "order:p1:offer0",
+        "counter": 1,
+        "word": 2539411525,
+        "bound": 3,
+        "rejected": false,
+        "result": 1
+      },
+      {
+        "stream": "order:p1:offer0",
+        "counter": 2,
+        "word": 577635064,
+        "bound": 2,
+        "rejected": false,
+        "result": 0
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 0,
+        "word": 1687204336,
+        "bound": 36,
+        "rejected": false,
+        "result": 4
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 1,
+        "word": 1069192580,
+        "bound": 36,
+        "rejected": false,
+        "result": 32
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 2,
+        "word": 3933993847,
+        "bound": 36,
+        "rejected": false,
+        "result": 31
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 3,
+        "word": 2488400529,
+        "bound": 36,
+        "rejected": false,
+        "result": 33
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 4,
+        "word": 2003503479,
+        "bound": 36,
+        "rejected": false,
+        "result": 15
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 5,
+        "word": 1050271514,
+        "bound": 36,
+        "rejected": false,
+        "result": 26
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 6,
+        "word": 2967105690,
+        "bound": 36,
+        "rejected": false,
+        "result": 18
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 7,
+        "word": 2771088026,
+        "bound": 36,
+        "rejected": false,
+        "result": 14
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 8,
+        "word": 2237148484,
+        "bound": 36,
+        "rejected": false,
+        "result": 16
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 9,
+        "word": 1863901250,
+        "bound": 36,
+        "rejected": false,
+        "result": 26
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 10,
+        "word": 4264845263,
+        "bound": 36,
+        "rejected": false,
+        "result": 35
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 11,
+        "word": 82254797,
+        "bound": 36,
+        "rejected": false,
+        "result": 17
+      },
+      {
+        "stream": "battle:tie",
+        "counter": 0,
+        "word": 3938245556,
+        "bound": 2,
+        "rejected": false,
+        "result": 0
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 12,
+        "word": 3997102735,
+        "bound": 36,
+        "rejected": false,
+        "result": 19
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 13,
+        "word": 3401356883,
+        "bound": 36,
+        "rejected": false,
+        "result": 23
+      },
+      {
+        "stream": "battle:tie",
+        "counter": 1,
+        "word": 1921607626,
+        "bound": 2,
+        "rejected": false,
+        "result": 0
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 14,
+        "word": 1499108033,
+        "bound": 36,
+        "rejected": false,
+        "result": 29
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 15,
+        "word": 429177461,
+        "bound": 36,
+        "rejected": false,
+        "result": 5
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 16,
+        "word": 1736449516,
+        "bound": 36,
+        "rejected": false,
+        "result": 28
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 17,
+        "word": 2578506413,
+        "bound": 36,
+        "rejected": false,
+        "result": 5
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 18,
+        "word": 4106298302,
+        "bound": 36,
+        "rejected": false,
+        "result": 26
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 19,
+        "word": 234319095,
+        "bound": 36,
+        "rejected": false,
+        "result": 27
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 20,
+        "word": 2000693988,
+        "bound": 36,
+        "rejected": false,
+        "result": 0
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 21,
+        "word": 4076947952,
+        "bound": 36,
+        "rejected": false,
+        "result": 8
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 22,
+        "word": 3439357911,
+        "bound": 36,
+        "rejected": false,
+        "result": 27
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 23,
+        "word": 2198315136,
+        "bound": 36,
+        "rejected": false,
+        "result": 12
+      },
+      {
+        "stream": "battle:critical",
+        "counter": 24,
+        "word": 1010471919,
+        "bound": 36,
+        "rejected": false,
+        "result": 15
+      }
+    ],
+    "sides": [
+      {
+        "team": [
+          {
+            "monster_id": "N05",
+            "set_id": "N05-B",
+            "hp": 0,
+            "uses": {
+              "M05": 8,
+              "M14": 7,
+              "M21": 4,
+              "M24": 3
+            },
+            "fallback": "F01",
+            "statuses": {},
+            "modifiers": {},
+            "reduction": null
+          },
+          {
+            "monster_id": "N08",
+            "set_id": "N08-B",
+            "hp": 0,
+            "uses": {
+              "M08": 8,
+              "M15": 8,
+              "M20": 4,
+              "M21": 4
+            },
+            "fallback": "F02",
+            "statuses": {},
+            "modifiers": {},
+            "reduction": null
+          },
+          {
+            "monster_id": "N09",
+            "set_id": "N09-B",
+            "hp": 0,
+            "uses": {
+              "M09": 7,
+              "M17": 7,
+              "M21": 4,
+              "M23": 4
+            },
+            "fallback": "F01",
+            "statuses": {},
+            "modifiers": {},
+            "reduction": null
+          },
+          {
+            "monster_id": "N11",
+            "set_id": "N11-A",
+            "hp": 0,
+            "uses": {
+              "M11": 7,
+              "M12": 10,
+              "M18": 8,
+              "M24": 3
+            },
+            "fallback": "F01",
+            "statuses": {},
+            "modifiers": {},
+            "reduction": null
+          }
+        ],
+        "active": 1,
+        "offer0": [
+          "N05-B",
+          "N08-B",
+          "N09-B",
+          "N11-A"
+        ],
+        "offer1": null,
+        "redrawn": false
+      },
+      {
+        "team": [
+          {
+            "monster_id": "N09",
+            "set_id": "N09-A",
+            "hp": 0,
+            "uses": {
+              "M09": 6,
+              "M17": 7,
+              "M20": 4,
+              "M24": 3
+            },
+            "fallback": "F01",
+            "statuses": {},
+            "modifiers": {},
+            "reduction": null
+          },
+          {
+            "monster_id": "N04",
+            "set_id": "N04-B",
+            "hp": 110,
+            "uses": {
+              "M04": 10,
+              "M18": 7,
+              "M20": 4,
+              "M21": 4
+            },
+            "fallback": "F02",
+            "statuses": {},
+            "modifiers": {},
+            "reduction": null
+          },
+          {
+            "monster_id": "N07",
+            "set_id": "N07-B",
+            "hp": 0,
+            "uses": {
+              "M07": 6,
+              "M14": 8,
+              "M22": 3,
+              "M20": 4
+            },
+            "fallback": "F01",
+            "statuses": {},
+            "modifiers": {},
+            "reduction": null
+          },
+          {
+            "monster_id": "N12",
+            "set_id": "N12-B",
+            "hp": 0,
+            "uses": {
+              "M12": 7,
+              "M18": 8,
+              "M21": 4,
+              "M24": 3
+            },
+            "fallback": "F02",
+            "statuses": {},
+            "modifiers": {},
+            "reduction": null
+          }
+        ],
+        "active": 1,
+        "offer0": [
+          "N09-A",
+          "N04-B",
+          "N07-B",
+          "N12-B"
+        ],
+        "offer1": null,
+        "redrawn": false
+      }
+    ],
+    "gate": "finished",
+    "gateId": 23,
+    "turn": 15,
+    "pending": [
+      null,
+      null
+    ],
+    "commitments": [
+      {
+        "gate": 1,
+        "phase": "offer",
+        "player": 0,
+        "choice": {
+          "kind": "keep"
+        }
+      },
+      {
+        "gate": 1,
+        "phase": "offer",
+        "player": 1,
+        "choice": {
+          "kind": "keep"
+        }
+      },
+      {
+        "gate": 2,
+        "phase": "lead",
+        "player": 0,
+        "choice": {
+          "kind": "lead",
+          "slot": 3
+        }
+      },
+      {
+        "gate": 2,
+        "phase": "lead",
+        "player": 1,
+        "choice": {
+          "kind": "lead",
+          "slot": 3
+        }
+      },
+      {
+        "gate": 3,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M11"
+        }
+      },
+      {
+        "gate": 3,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M12"
+        }
+      },
+      {
+        "gate": 4,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M11"
+        }
+      },
+      {
+        "gate": 4,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M12"
+        }
+      },
+      {
+        "gate": 5,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M11"
+        }
+      },
+      {
+        "gate": 5,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M12"
+        }
+      },
+      {
+        "gate": 6,
+        "phase": "replace",
+        "player": 0,
+        "choice": {
+          "kind": "switch",
+          "slot": 0
+        }
+      },
+      {
+        "gate": 7,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M12"
+        }
+      },
+      {
+        "gate": 7,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M14"
+        }
+      },
+      {
+        "gate": 8,
+        "phase": "replace",
+        "player": 1,
+        "choice": {
+          "kind": "switch",
+          "slot": 0
+        }
+      },
+      {
+        "gate": 9,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M05"
+        }
+      },
+      {
+        "gate": 9,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M09"
+        }
+      },
+      {
+        "gate": 10,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M05"
+        }
+      },
+      {
+        "gate": 10,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M09"
+        }
+      },
+      {
+        "gate": 11,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M05"
+        }
+      },
+      {
+        "gate": 11,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M17"
+        }
+      },
+      {
+        "gate": 12,
+        "phase": "replace",
+        "player": 0,
+        "choice": {
+          "kind": "switch",
+          "slot": 2
+        }
+      },
+      {
+        "gate": 13,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M09"
+        }
+      },
+      {
+        "gate": 13,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M09"
+        }
+      },
+      {
+        "gate": 14,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M09"
+        }
+      },
+      {
+        "gate": 14,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M09"
+        }
+      },
+      {
+        "gate": 15,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M09"
+        }
+      },
+      {
+        "gate": 15,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M17"
+        }
+      },
+      {
+        "gate": 16,
+        "phase": "replace",
+        "player": 1,
+        "choice": {
+          "kind": "switch",
+          "slot": 2
+        }
+      },
+      {
+        "gate": 17,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M09"
+        }
+      },
+      {
+        "gate": 17,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M07"
+        }
+      },
+      {
+        "gate": 18,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M09"
+        }
+      },
+      {
+        "gate": 18,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M07"
+        }
+      },
+      {
+        "gate": 20,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M08"
+        }
+      },
+      {
+        "gate": 20,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M07"
+        }
+      },
+      {
+        "gate": 21,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M08"
+        }
+      },
+      {
+        "gate": 21,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M07"
+        }
+      },
+      {
+        "gate": 23,
+        "phase": "normal",
+        "player": 0,
+        "choice": {
+          "kind": "move",
+          "move": "M08"
+        }
+      },
+      {
+        "gate": 23,
+        "phase": "normal",
+        "player": 1,
+        "choice": {
+          "kind": "move",
+          "move": "M18"
+        }
+      }
+    ],
+    "events": [
+      {
+        "turn": 0,
+        "kind": "teams",
+        "text": "Both teams are revealed. Choose a lead in secret."
+      },
+      {
+        "turn": 0,
+        "kind": "lead",
+        "player": 0,
+        "slot": 3,
+        "text": "Player 1 sends in Bellmane."
+      },
+      {
+        "turn": 0,
+        "kind": "lead",
+        "player": 1,
+        "slot": 3,
+        "text": "Player 2 sends in Glimmerscribe."
+      },
+      {
+        "turn": 1,
+        "kind": "move",
+        "player": 0,
+        "slot": 3,
+        "move": "M11",
+        "text": "Bellmane uses Halo Ram."
+      },
+      {
+        "turn": 1,
+        "kind": "damage",
+        "player": 0,
+        "slot": 3,
+        "target_player": 1,
+        "target_slot": 3,
+        "move": "M11",
+        "damage": 41,
+        "actual": 41,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 3
+        },
+        "text": "Glimmerscribe loses 41 Health."
+      },
+      {
+        "turn": 1,
+        "kind": "move",
+        "player": 1,
+        "slot": 3,
+        "move": "M12",
+        "text": "Glimmerscribe uses Dawn Weave."
+      },
+      {
+        "turn": 1,
+        "kind": "damage",
+        "player": 1,
+        "slot": 3,
+        "target_player": 0,
+        "target_slot": 3,
+        "move": "M12",
+        "damage": 41,
+        "actual": 41,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 3
+        },
+        "text": "Bellmane loses 41 Health."
+      },
+      {
+        "turn": 2,
+        "kind": "move",
+        "player": 0,
+        "slot": 3,
+        "move": "M11",
+        "text": "Bellmane uses Halo Ram."
+      },
+      {
+        "turn": 2,
+        "kind": "damage",
+        "player": 0,
+        "slot": 3,
+        "target_player": 1,
+        "target_slot": 3,
+        "move": "M11",
+        "damage": 41,
+        "actual": 41,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 3
+        },
+        "text": "Glimmerscribe loses 41 Health."
+      },
+      {
+        "turn": 2,
+        "kind": "move",
+        "player": 1,
+        "slot": 3,
+        "move": "M12",
+        "text": "Glimmerscribe uses Dawn Weave."
+      },
+      {
+        "turn": 2,
+        "kind": "damage",
+        "player": 1,
+        "slot": 3,
+        "target_player": 0,
+        "target_slot": 3,
+        "move": "M12",
+        "damage": 41,
+        "actual": 41,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 3
+        },
+        "text": "Bellmane loses 41 Health."
+      },
+      {
+        "turn": 3,
+        "kind": "move",
+        "player": 0,
+        "slot": 3,
+        "move": "M11",
+        "text": "Bellmane uses Halo Ram."
+      },
+      {
+        "turn": 3,
+        "kind": "damage",
+        "player": 0,
+        "slot": 3,
+        "target_player": 1,
+        "target_slot": 3,
+        "move": "M11",
+        "damage": 41,
+        "actual": 41,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 3
+        },
+        "text": "Glimmerscribe loses 41 Health."
+      },
+      {
+        "turn": 3,
+        "kind": "move",
+        "player": 1,
+        "slot": 3,
+        "move": "M12",
+        "text": "Glimmerscribe uses Dawn Weave."
+      },
+      {
+        "turn": 3,
+        "kind": "damage",
+        "player": 1,
+        "slot": 3,
+        "target_player": 0,
+        "target_slot": 3,
+        "move": "M12",
+        "damage": 41,
+        "actual": 38,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 3
+        },
+        "text": "Bellmane loses 38 Health."
+      },
+      {
+        "turn": 3,
+        "kind": "knockout",
+        "player": 0,
+        "slot": 3,
+        "text": "Bellmane is knocked out."
+      },
+      {
+        "turn": 3,
+        "kind": "replacement",
+        "player": 0,
+        "slot": 0,
+        "text": "Player 1 sends in Cairnox."
+      },
+      {
+        "turn": 4,
+        "kind": "move",
+        "player": 0,
+        "slot": 0,
+        "move": "M14",
+        "text": "Cairnox uses Draft Jab."
+      },
+      {
+        "turn": 4,
+        "kind": "damage",
+        "player": 0,
+        "slot": 0,
+        "target_player": 1,
+        "target_slot": 3,
+        "move": "M14",
+        "damage": 31,
+        "actual": 12,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 0
+        },
+        "text": "Glimmerscribe loses 12 Health."
+      },
+      {
+        "turn": 4,
+        "kind": "knockout",
+        "player": 1,
+        "slot": 3,
+        "text": "Glimmerscribe is knocked out."
+      },
+      {
+        "turn": 4,
+        "kind": "canceled",
+        "player": 1,
+        "slot": 3,
+        "move": "M12",
+        "text": "Dawn Weave is canceled; its user was knocked out."
+      },
+      {
+        "turn": 4,
+        "kind": "replacement",
+        "player": 1,
+        "slot": 0,
+        "text": "Player 2 sends in Knellbadger."
+      },
+      {
+        "turn": 5,
+        "kind": "move",
+        "player": 1,
+        "slot": 0,
+        "move": "M09",
+        "text": "Knellbadger uses Shade Rake."
+      },
+      {
+        "turn": 5,
+        "kind": "damage",
+        "player": 1,
+        "slot": 0,
+        "target_player": 0,
+        "target_slot": 0,
+        "move": "M09",
+        "damage": 58,
+        "actual": 58,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 0
+        },
+        "text": "Cairnox loses 58 Health."
+      },
+      {
+        "turn": 5,
+        "kind": "move",
+        "player": 0,
+        "slot": 0,
+        "move": "M05",
+        "text": "Cairnox uses Cairn Hammer."
+      },
+      {
+        "turn": 5,
+        "kind": "damage",
+        "player": 0,
+        "slot": 0,
+        "target_player": 1,
+        "target_slot": 0,
+        "move": "M05",
+        "damage": 25,
+        "actual": 25,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 0
+        },
+        "text": "Knellbadger loses 25 Health."
+      },
+      {
+        "turn": 6,
+        "kind": "move",
+        "player": 1,
+        "slot": 0,
+        "move": "M09",
+        "text": "Knellbadger uses Shade Rake."
+      },
+      {
+        "turn": 6,
+        "kind": "damage",
+        "player": 1,
+        "slot": 0,
+        "target_player": 0,
+        "target_slot": 0,
+        "move": "M09",
+        "damage": 58,
+        "actual": 58,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 0
+        },
+        "text": "Cairnox loses 58 Health."
+      },
+      {
+        "turn": 6,
+        "kind": "move",
+        "player": 0,
+        "slot": 0,
+        "move": "M05",
+        "text": "Cairnox uses Cairn Hammer."
+      },
+      {
+        "turn": 6,
+        "kind": "damage",
+        "player": 0,
+        "slot": 0,
+        "target_player": 1,
+        "target_slot": 0,
+        "move": "M05",
+        "damage": 25,
+        "actual": 25,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 0
+        },
+        "text": "Knellbadger loses 25 Health."
+      },
+      {
+        "turn": 7,
+        "kind": "move",
+        "player": 1,
+        "slot": 0,
+        "move": "M17",
+        "text": "Knellbadger uses Gloom Nick."
+      },
+      {
+        "turn": 7,
+        "kind": "damage",
+        "player": 1,
+        "slot": 0,
+        "target_player": 0,
+        "target_slot": 0,
+        "move": "M17",
+        "damage": 36,
+        "actual": 24,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 0
+        },
+        "text": "Cairnox loses 24 Health."
+      },
+      {
+        "turn": 7,
+        "kind": "knockout",
+        "player": 0,
+        "slot": 0,
+        "text": "Cairnox is knocked out."
+      },
+      {
+        "turn": 7,
+        "kind": "canceled",
+        "player": 0,
+        "slot": 0,
+        "move": "M05",
+        "text": "Cairn Hammer is canceled; its user was knocked out."
+      },
+      {
+        "turn": 7,
+        "kind": "replacement",
+        "player": 0,
+        "slot": 2,
+        "text": "Player 1 sends in Knellbadger."
+      },
+      {
+        "turn": 8,
+        "kind": "tie",
+        "text": "Exact Speed tie: Player 1 acts first.",
+        "player": 0
+      },
+      {
+        "turn": 8,
+        "kind": "move",
+        "player": 0,
+        "slot": 2,
+        "move": "M09",
+        "text": "Knellbadger uses Shade Rake."
+      },
+      {
+        "turn": 8,
+        "kind": "damage",
+        "player": 0,
+        "slot": 2,
+        "target_player": 1,
+        "target_slot": 0,
+        "move": "M09",
+        "damage": 37,
+        "actual": 37,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 2
+        },
+        "text": "Knellbadger loses 37 Health."
+      },
+      {
+        "turn": 8,
+        "kind": "move",
+        "player": 1,
+        "slot": 0,
+        "move": "M09",
+        "text": "Knellbadger uses Shade Rake."
+      },
+      {
+        "turn": 8,
+        "kind": "damage",
+        "player": 1,
+        "slot": 0,
+        "target_player": 0,
+        "target_slot": 2,
+        "move": "M09",
+        "damage": 37,
+        "actual": 37,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 0
+        },
+        "text": "Knellbadger loses 37 Health."
+      },
+      {
+        "turn": 9,
+        "kind": "tie",
+        "text": "Exact Speed tie: Player 1 acts first.",
+        "player": 0
+      },
+      {
+        "turn": 9,
+        "kind": "move",
+        "player": 0,
+        "slot": 2,
+        "move": "M09",
+        "text": "Knellbadger uses Shade Rake."
+      },
+      {
+        "turn": 9,
+        "kind": "damage",
+        "player": 0,
+        "slot": 2,
+        "target_player": 1,
+        "target_slot": 0,
+        "move": "M09",
+        "damage": 37,
+        "actual": 37,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 2
+        },
+        "text": "Knellbadger loses 37 Health."
+      },
+      {
+        "turn": 9,
+        "kind": "move",
+        "player": 1,
+        "slot": 0,
+        "move": "M09",
+        "text": "Knellbadger uses Shade Rake."
+      },
+      {
+        "turn": 9,
+        "kind": "damage",
+        "player": 1,
+        "slot": 0,
+        "target_player": 0,
+        "target_slot": 2,
+        "move": "M09",
+        "damage": 37,
+        "actual": 37,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 0
+        },
+        "text": "Knellbadger loses 37 Health."
+      },
+      {
+        "turn": 10,
+        "kind": "move",
+        "player": 0,
+        "slot": 2,
+        "move": "M17",
+        "text": "Knellbadger uses Gloom Nick."
+      },
+      {
+        "turn": 10,
+        "kind": "damage",
+        "player": 0,
+        "slot": 2,
+        "target_player": 1,
+        "target_slot": 0,
+        "move": "M17",
+        "damage": 23,
+        "actual": 6,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 2
+        },
+        "text": "Knellbadger loses 6 Health."
+      },
+      {
+        "turn": 10,
+        "kind": "knockout",
+        "player": 1,
+        "slot": 0,
+        "text": "Knellbadger is knocked out."
+      },
+      {
+        "turn": 10,
+        "kind": "canceled",
+        "player": 1,
+        "slot": 0,
+        "move": "M09",
+        "text": "Shade Rake is canceled; its user was knocked out."
+      },
+      {
+        "turn": 10,
+        "kind": "replacement",
+        "player": 1,
+        "slot": 2,
+        "text": "Player 2 sends in Rillhorn."
+      },
+      {
+        "turn": 11,
+        "kind": "move",
+        "player": 1,
+        "slot": 2,
+        "move": "M07",
+        "text": "Rillhorn uses Rill Lash."
+      },
+      {
+        "turn": 11,
+        "kind": "damage",
+        "player": 1,
+        "slot": 2,
+        "target_player": 0,
+        "target_slot": 2,
+        "move": "M07",
+        "damage": 39,
+        "actual": 39,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 2
+        },
+        "text": "Knellbadger loses 39 Health."
+      },
+      {
+        "turn": 11,
+        "kind": "move",
+        "player": 0,
+        "slot": 2,
+        "move": "M09",
+        "text": "Knellbadger uses Shade Rake."
+      },
+      {
+        "turn": 11,
+        "kind": "damage",
+        "player": 0,
+        "slot": 2,
+        "target_player": 1,
+        "target_slot": 2,
+        "move": "M09",
+        "damage": 41,
+        "actual": 41,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 2
+        },
+        "text": "Rillhorn loses 41 Health."
+      },
+      {
+        "turn": 12,
+        "kind": "move",
+        "player": 1,
+        "slot": 2,
+        "move": "M07",
+        "text": "Rillhorn uses Rill Lash."
+      },
+      {
+        "turn": 12,
+        "kind": "damage",
+        "player": 1,
+        "slot": 2,
+        "target_player": 0,
+        "target_slot": 2,
+        "move": "M07",
+        "damage": 39,
+        "actual": 17,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 2
+        },
+        "text": "Knellbadger loses 17 Health."
+      },
+      {
+        "turn": 12,
+        "kind": "knockout",
+        "player": 0,
+        "slot": 2,
+        "text": "Knellbadger is knocked out."
+      },
+      {
+        "turn": 12,
+        "kind": "canceled",
+        "player": 0,
+        "slot": 2,
+        "move": "M09",
+        "text": "Shade Rake is canceled; its user was knocked out."
+      },
+      {
+        "turn": 12,
+        "kind": "replacement",
+        "player": 0,
+        "slot": 1,
+        "text": "Player 1 sends in Wellwisp."
+      },
+      {
+        "turn": 13,
+        "kind": "move",
+        "player": 1,
+        "slot": 2,
+        "move": "M07",
+        "text": "Rillhorn uses Rill Lash."
+      },
+      {
+        "turn": 13,
+        "kind": "damage",
+        "player": 1,
+        "slot": 2,
+        "target_player": 0,
+        "target_slot": 1,
+        "move": "M07",
+        "damage": 58,
+        "actual": 58,
+        "critical": true,
+        "source": {
+          "player": 1,
+          "slot": 2
+        },
+        "text": "Wellwisp loses 58 Health · critical hit."
+      },
+      {
+        "turn": 13,
+        "kind": "move",
+        "player": 0,
+        "slot": 1,
+        "move": "M08",
+        "text": "Wellwisp uses Undertide."
+      },
+      {
+        "turn": 13,
+        "kind": "damage",
+        "player": 0,
+        "slot": 1,
+        "target_player": 1,
+        "target_slot": 2,
+        "move": "M08",
+        "damage": 46,
+        "actual": 46,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 1
+        },
+        "text": "Rillhorn loses 46 Health."
+      },
+      {
+        "turn": 14,
+        "kind": "move",
+        "player": 1,
+        "slot": 2,
+        "move": "M07",
+        "text": "Rillhorn uses Rill Lash."
+      },
+      {
+        "turn": 14,
+        "kind": "damage",
+        "player": 1,
+        "slot": 2,
+        "target_player": 0,
+        "target_slot": 1,
+        "move": "M07",
+        "damage": 46,
+        "actual": 46,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 2
+        },
+        "text": "Wellwisp loses 46 Health."
+      },
+      {
+        "turn": 14,
+        "kind": "move",
+        "player": 0,
+        "slot": 1,
+        "move": "M08",
+        "text": "Wellwisp uses Undertide."
+      },
+      {
+        "turn": 14,
+        "kind": "damage",
+        "player": 0,
+        "slot": 1,
+        "target_player": 1,
+        "target_slot": 2,
+        "move": "M08",
+        "damage": 46,
+        "actual": 38,
+        "critical": false,
+        "source": {
+          "player": 0,
+          "slot": 1
+        },
+        "text": "Rillhorn loses 38 Health."
+      },
+      {
+        "turn": 14,
+        "kind": "knockout",
+        "player": 1,
+        "slot": 2,
+        "text": "Rillhorn is knocked out."
+      },
+      {
+        "turn": 14,
+        "kind": "replacement",
+        "player": 1,
+        "slot": 1,
+        "text": "Player 2 sends in Chimekite."
+      },
+      {
+        "turn": 15,
+        "kind": "move",
+        "player": 1,
+        "slot": 1,
+        "move": "M18",
+        "text": "Chimekite uses Ray Pin."
+      },
+      {
+        "turn": 15,
+        "kind": "damage",
+        "player": 1,
+        "slot": 1,
+        "target_player": 0,
+        "target_slot": 1,
+        "move": "M18",
+        "damage": 32,
+        "actual": 26,
+        "critical": false,
+        "source": {
+          "player": 1,
+          "slot": 1
+        },
+        "text": "Wellwisp loses 26 Health."
+      },
+      {
+        "turn": 15,
+        "kind": "knockout",
+        "player": 0,
+        "slot": 1,
+        "text": "Wellwisp is knocked out."
+      },
+      {
+        "turn": 15,
+        "kind": "result",
+        "text": "Player 2 wins (knockout)."
+      }
+    ],
+    "outcome": {
+      "winner": 1,
+      "reason": "knockout"
+    }
+  },
+  "content": {
+    "version": "lantern-content-v1",
+    "rules_version": "lantern-rules-v1",
+    "profile": "v1-independent-4",
+    "types": [
+      "fire",
+      "air",
+      "earth",
+      "water",
+      "dark",
+      "light"
+    ],
+    "chart": [
+      [
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      [
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "monsters": [
+      {
+        "id": "N01",
+        "name": "Coalspindle",
+        "type": "fire",
+        "role": "Fast Force attacker",
+        "premise": "A soot-and-wicker creature born from the ritual of banking a hearth before sleep; it runs on jointed firewood legs.",
+        "stats": {
+          "health": 110,
+          "force": 100,
+          "guard": 70,
+          "spirit": 40,
+          "ward": 60,
+          "speed": 90
+        }
+      },
+      {
+        "id": "N02",
+        "name": "Hearthmoth",
+        "type": "fire",
+        "role": "Durable Spirit attacker",
+        "premise": "A folded festival-paper creature whose ember-patterned wings glow with wishes left beside household fires.",
+        "stats": {
+          "health": 125,
+          "force": 50,
+          "guard": 65,
+          "spirit": 85,
+          "ward": 90,
+          "speed": 65
+        }
+      },
+      {
+        "id": "N03",
+        "name": "Ribbonrook",
+        "type": "air",
+        "role": "Fastest Force attacker",
+        "premise": "A road-sign ribbon given a birdlike body by travelers' farewell songs; its trailing knots point toward home.",
+        "stats": {
+          "health": 105,
+          "force": 95,
+          "guard": 65,
+          "spirit": 50,
+          "ward": 70,
+          "speed": 100
+        }
+      },
+      {
+        "id": "N04",
+        "name": "Chimekite",
+        "type": "air",
+        "role": "Fast Spirit attacker",
+        "premise": "A living weather kite with a ring of floating ceramic chimes, awakened by a town's first spring procession.",
+        "stats": {
+          "health": 110,
+          "force": 40,
+          "guard": 65,
+          "spirit": 95,
+          "ward": 80,
+          "speed": 85
+        }
+      },
+      {
+        "id": "N05",
+        "name": "Cairnox",
+        "type": "earth",
+        "role": "Slow, durable Force attacker",
+        "premise": "A moving cairn with branch antlers, born when generations add stones to mark a safe mountain crossing.",
+        "stats": {
+          "health": 140,
+          "force": 85,
+          "guard": 85,
+          "spirit": 40,
+          "ward": 65,
+          "speed": 40
+        }
+      },
+      {
+        "id": "N06",
+        "name": "Rootwrit",
+        "type": "earth",
+        "role": "Spirit control; alternate Force attack",
+        "premise": "A root-bound clay figure carrying leaf-shaped tablets, formed from vows buried beneath an old boundary tree.",
+        "stats": {
+          "health": 125,
+          "force": 65,
+          "guard": 85,
+          "spirit": 80,
+          "ward": 70,
+          "speed": 60
+        }
+      },
+      {
+        "id": "N07",
+        "name": "Rillhorn",
+        "type": "water",
+        "role": "Force bruiser",
+        "premise": "A stream creature with a curved hollow horn and stepping-stone feet, born from the promise to keep a ford open.",
+        "stats": {
+          "health": 125,
+          "force": 90,
+          "guard": 75,
+          "spirit": 40,
+          "ward": 60,
+          "speed": 75
+        }
+      },
+      {
+        "id": "N08",
+        "name": "Wellwisp",
+        "type": "water",
+        "role": "Durable Spirit attacker",
+        "premise": "A suspended bead of water inside a walking rope-and-bucket frame, awakened by wishes spoken into a village well.",
+        "stats": {
+          "health": 130,
+          "force": 50,
+          "guard": 60,
+          "spirit": 90,
+          "ward": 80,
+          "speed": 55
+        }
+      },
+      {
+        "id": "N09",
+        "name": "Knellbadger",
+        "type": "dark",
+        "role": "Force control; high Guard",
+        "premise": "A squat burrowing creature with a silent bell-shaped carapace, born from the solemn counting of names at dusk.",
+        "stats": {
+          "health": 130,
+          "force": 85,
+          "guard": 90,
+          "spirit": 40,
+          "ward": 70,
+          "speed": 50
+        }
+      },
+      {
+        "id": "N10",
+        "name": "Duskquill",
+        "type": "dark",
+        "role": "Fast Spirit attacker",
+        "premise": "An ink-bodied creature with floating quills for limbs, formed from unfinished stories hidden away at night.",
+        "stats": {
+          "health": 105,
+          "force": 40,
+          "guard": 65,
+          "spirit": 100,
+          "ward": 70,
+          "speed": 95
+        }
+      },
+      {
+        "id": "N11",
+        "name": "Bellmane",
+        "type": "light",
+        "role": "Mixed-category attacker",
+        "premise": "A four-legged lantern guardian with a mane of luminous bell ribbons, born from a community's vow to guide lost travelers.",
+        "stats": {
+          "health": 120,
+          "force": 85,
+          "guard": 70,
+          "spirit": 80,
+          "ward": 70,
+          "speed": 70
+        }
+      },
+      {
+        "id": "N12",
+        "name": "Glimmerscribe",
+        "type": "light",
+        "role": "Slow Spirit control; high Ward",
+        "premise": "A walking bundle of translucent scrolls with a hovering lamp for a head, awakened by records of promises kept.",
+        "stats": {
+          "health": 135,
+          "force": 40,
+          "guard": 75,
+          "spirit": 80,
+          "ward": 90,
+          "speed": 45
+        }
+      }
+    ],
+    "sets": [
+      {
+        "id": "N01-A",
+        "monster_id": "N01",
+        "name": "Ember Pursuit",
+        "move_ids": [
+          "M01",
+          "M13",
+          "M14",
+          "M24"
+        ],
+        "plan": "Three attacks offer normal-speed damage, finishing, and limited Air coverage; clear disruptive effects.",
+        "weight": 1
+      },
+      {
+        "id": "N01-B",
+        "monster_id": "N01",
+        "name": "Vow of Sparks",
+        "move_ids": [
+          "M01",
+          "M13",
+          "M22",
+          "M20"
+        ],
+        "plan": "Prepare an attacking window or use Fray to pressure a durable switch-in.",
+        "weight": 1
+      },
+      {
+        "id": "N02-A",
+        "monster_id": "N02",
+        "name": "Hearthkeeper",
+        "move_ids": [
+          "M02",
+          "M16",
+          "M19",
+          "M24"
+        ],
+        "plan": "Recover after favorable exchanges; Water coverage improves attacks into Earth.",
+        "weight": 1
+      },
+      {
+        "id": "N02-B",
+        "monster_id": "N02",
+        "name": "Ash Courier",
+        "move_ids": [
+          "M02",
+          "M16",
+          "M20",
+          "M21"
+        ],
+        "plan": "Use Fray and slower opposing Speed to create a later attacking opportunity.",
+        "weight": 1
+      },
+      {
+        "id": "N03-A",
+        "monster_id": "N03",
+        "name": "Road Scout",
+        "move_ids": [
+          "M03",
+          "M14",
+          "M13",
+          "M24"
+        ],
+        "plan": "Act first at normal priority and remove disruption; Fire coverage helps against Dark.",
+        "weight": 1
+      },
+      {
+        "id": "N03-B",
+        "monster_id": "N03",
+        "name": "Tailwind Vow",
+        "move_ids": [
+          "M03",
+          "M14",
+          "M13",
+          "M22"
+        ],
+        "plan": "Trade a preparation action for stronger attacks; retain two finishing types.",
+        "weight": 1
+      },
+      {
+        "id": "N04-A",
+        "monster_id": "N04",
+        "name": "High Chime",
+        "move_ids": [
+          "M04",
+          "M18",
+          "M22",
+          "M24"
+        ],
+        "plan": "Create a Spirit attacking window while retaining an answer to opposing boosts and statuses.",
+        "weight": 1
+      },
+      {
+        "id": "N04-B",
+        "monster_id": "N04",
+        "name": "Crosscurrent",
+        "move_ids": [
+          "M04",
+          "M18",
+          "M20",
+          "M21"
+        ],
+        "plan": "Pressure switches and slow faster threats; Light coverage helps against Dark.",
+        "weight": 1
+      },
+      {
+        "id": "N05-A",
+        "monster_id": "N05",
+        "name": "Stone Shelter",
+        "move_ids": [
+          "M05",
+          "M13",
+          "M20",
+          "M23"
+        ],
+        "plan": "Use finite bracing to buy time for Fray and core damage; Fire coverage helps against Dark.",
+        "weight": 1
+      },
+      {
+        "id": "N05-B",
+        "monster_id": "N05",
+        "name": "Patient Bell",
+        "move_ids": [
+          "M05",
+          "M14",
+          "M21",
+          "M24"
+        ],
+        "plan": "Slow moderate-speed opponents, clear disruption, and use Air coverage against Water.",
+        "weight": 1
+      },
+      {
+        "id": "N06-A",
+        "monster_id": "N06",
+        "name": "Binding Script",
+        "move_ids": [
+          "M06",
+          "M18",
+          "M21",
+          "M24"
+        ],
+        "plan": "Change later move order and remove disruption; Light coverage helps against Dark.",
+        "weight": 1
+      },
+      {
+        "id": "N06-B",
+        "monster_id": "N06",
+        "name": "Holding Ground",
+        "move_ids": [
+          "M06",
+          "M05",
+          "M20",
+          "M23"
+        ],
+        "plan": "Brace while applying pressure; choose Force against opponents whose Guard is sufficiently lower than Ward.",
+        "weight": 1
+      },
+      {
+        "id": "N07-A",
+        "monster_id": "N07",
+        "name": "Ford Runner",
+        "move_ids": [
+          "M07",
+          "M13",
+          "M21",
+          "M24"
+        ],
+        "plan": "Control later Speed and attack through the more useful type; Fire coverage helps against Air.",
+        "weight": 1
+      },
+      {
+        "id": "N07-B",
+        "monster_id": "N07",
+        "name": "Rising Horn",
+        "move_ids": [
+          "M07",
+          "M14",
+          "M22",
+          "M20"
+        ],
+        "plan": "Prepare stronger attacks or punish a durable switch; Air coverage helps against Light.",
+        "weight": 1
+      },
+      {
+        "id": "N08-A",
+        "monster_id": "N08",
+        "name": "Wellkeeper",
+        "move_ids": [
+          "M08",
+          "M16",
+          "M19",
+          "M24"
+        ],
+        "plan": "Take favorable exchanges, spend bounded recovery, and finish with matching-type priority.",
+        "weight": 1
+      },
+      {
+        "id": "N08-B",
+        "monster_id": "N08",
+        "name": "Eroding Mark",
+        "move_ids": [
+          "M08",
+          "M15",
+          "M20",
+          "M21"
+        ],
+        "plan": "Apply pressure or change Speed; Earth coverage helps against Light.",
+        "weight": 1
+      },
+      {
+        "id": "N09-A",
+        "monster_id": "N09",
+        "name": "Toll Collector",
+        "move_ids": [
+          "M09",
+          "M17",
+          "M20",
+          "M24"
+        ],
+        "plan": "Use high Guard to stay active while pressuring Health; clear status or setup threats.",
+        "weight": 1
+      },
+      {
+        "id": "N09-B",
+        "monster_id": "N09",
+        "name": "Closed Gate",
+        "move_ids": [
+          "M09",
+          "M17",
+          "M21",
+          "M23"
+        ],
+        "plan": "Buy a finite defensive window and slow opponents enough to threaten an earlier knockout.",
+        "weight": 1
+      },
+      {
+        "id": "N10-A",
+        "monster_id": "N10",
+        "name": "Night Courier",
+        "move_ids": [
+          "M10",
+          "M15",
+          "M20",
+          "M24"
+        ],
+        "plan": "Use fast Spirit damage with cleanup; Earth coverage helps against both Fire and Light.",
+        "weight": 1
+      },
+      {
+        "id": "N10-B",
+        "monster_id": "N10",
+        "name": "Ink Oath",
+        "move_ids": [
+          "M10",
+          "M15",
+          "M22",
+          "M20"
+        ],
+        "plan": "Prepare an attacking window or pressure a switch; lacks immediate cleanup.",
+        "weight": 1
+      },
+      {
+        "id": "N11-A",
+        "monster_id": "N11",
+        "name": "Open Bell",
+        "move_ids": [
+          "M11",
+          "M12",
+          "M18",
+          "M24"
+        ],
+        "plan": "Select the damage category that deals more damage, then finish or remove disruption.",
+        "weight": 1
+      },
+      {
+        "id": "N11-B",
+        "monster_id": "N11",
+        "name": "Ringing Vow",
+        "move_ids": [
+          "M11",
+          "M12",
+          "M18",
+          "M22"
+        ],
+        "plan": "Prepare both damage categories and exploit whichever defense is lower.",
+        "weight": 1
+      },
+      {
+        "id": "N12-A",
+        "monster_id": "N12",
+        "name": "Ward Script",
+        "move_ids": [
+          "M12",
+          "M16",
+          "M20",
+          "M23"
+        ],
+        "plan": "Use high Ward and finite bracing while Fray advances the battle; Water coverage helps against Earth.",
+        "weight": 1
+      },
+      {
+        "id": "N12-B",
+        "monster_id": "N12",
+        "name": "Clear Script",
+        "move_ids": [
+          "M12",
+          "M18",
+          "M21",
+          "M24"
+        ],
+        "plan": "Slow moderate-speed threats, clear disruption, and finish with matching-type priority.",
+        "weight": 1
+      }
+    ],
+    "moves": [
+      {
+        "id": "M01",
+        "name": "Coalspur Strike",
+        "type": "fire",
+        "category": "force",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M02",
+        "name": "Hearthflare",
+        "type": "fire",
+        "category": "spirit",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M03",
+        "name": "Gale Hook",
+        "type": "air",
+        "category": "force",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M04",
+        "name": "Skycoil",
+        "type": "air",
+        "category": "spirit",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M05",
+        "name": "Cairn Hammer",
+        "type": "earth",
+        "category": "force",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M06",
+        "name": "Fault Hymn",
+        "type": "earth",
+        "category": "spirit",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M07",
+        "name": "Rill Lash",
+        "type": "water",
+        "category": "force",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M08",
+        "name": "Undertide",
+        "type": "water",
+        "category": "spirit",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M09",
+        "name": "Shade Rake",
+        "type": "dark",
+        "category": "force",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M10",
+        "name": "Dusk Thread",
+        "type": "dark",
+        "category": "spirit",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M11",
+        "name": "Halo Ram",
+        "type": "light",
+        "category": "force",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M12",
+        "name": "Dawn Weave",
+        "type": "light",
+        "category": "spirit",
+        "power": 65,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 10,
+        "roles": [
+          "core_damage"
+        ],
+        "description": "A reliable matching-type attack.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M13",
+        "name": "Cinder Flick",
+        "type": "fire",
+        "category": "force",
+        "power": 40,
+        "accuracy": 100,
+        "priority": 1,
+        "max_uses": 8,
+        "roles": [
+          "priority_damage"
+        ],
+        "description": "A quick attack. Priority +1 precedes ordinary moves.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M14",
+        "name": "Draft Jab",
+        "type": "air",
+        "category": "force",
+        "power": 40,
+        "accuracy": 100,
+        "priority": 1,
+        "max_uses": 8,
+        "roles": [
+          "priority_damage"
+        ],
+        "description": "A quick attack. Priority +1 precedes ordinary moves.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M15",
+        "name": "Pebble Sign",
+        "type": "earth",
+        "category": "spirit",
+        "power": 40,
+        "accuracy": 100,
+        "priority": 1,
+        "max_uses": 8,
+        "roles": [
+          "priority_damage"
+        ],
+        "description": "A quick attack. Priority +1 precedes ordinary moves.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M16",
+        "name": "Spray Rune",
+        "type": "water",
+        "category": "spirit",
+        "power": 40,
+        "accuracy": 100,
+        "priority": 1,
+        "max_uses": 8,
+        "roles": [
+          "priority_damage"
+        ],
+        "description": "A quick attack. Priority +1 precedes ordinary moves.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M17",
+        "name": "Gloom Nick",
+        "type": "dark",
+        "category": "force",
+        "power": 40,
+        "accuracy": 100,
+        "priority": 1,
+        "max_uses": 8,
+        "roles": [
+          "priority_damage"
+        ],
+        "description": "A quick attack. Priority +1 precedes ordinary moves.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M18",
+        "name": "Ray Pin",
+        "type": "light",
+        "category": "spirit",
+        "power": 40,
+        "accuracy": 100,
+        "priority": 1,
+        "max_uses": 8,
+        "roles": [
+          "priority_damage"
+        ],
+        "description": "A quick attack. Priority +1 precedes ordinary moves.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "M19",
+        "name": "Hearthstitch",
+        "type": null,
+        "category": "utility",
+        "power": 0,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 2,
+        "roles": [
+          "healing"
+        ],
+        "description": "Restore ¼ maximum Health, rounded down.",
+        "effects": [
+          {
+            "op": "restore_health_fraction",
+            "target": "self",
+            "numerator": 1,
+            "denominator": 4
+          }
+        ]
+      },
+      {
+        "id": "M20",
+        "name": "Ashen Ledger",
+        "type": null,
+        "category": "utility",
+        "power": 0,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 4,
+        "roles": [
+          "pressure"
+        ],
+        "description": "Apply Fray: lose ⅛ maximum Health at the next 3 active turn ends, including this turn.",
+        "effects": [
+          {
+            "op": "apply_status",
+            "target": "opponent_active",
+            "status": "fray"
+          }
+        ]
+      },
+      {
+        "id": "M21",
+        "name": "Weightbind",
+        "type": null,
+        "category": "utility",
+        "power": 0,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 4,
+        "roles": [
+          "speed_control"
+        ],
+        "description": "Apply Tethered: halve Speed for 4 active turn ends. Queued move order stays fixed.",
+        "effects": [
+          {
+            "op": "apply_status",
+            "target": "opponent_active",
+            "status": "tethered"
+          }
+        ]
+      },
+      {
+        "id": "M22",
+        "name": "Kindled Oath",
+        "type": null,
+        "category": "utility",
+        "power": 0,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": 3,
+        "roles": [
+          "setup"
+        ],
+        "description": "Double Force and Spirit; multiply Speed by 1.25 for 4 active turn ends. Switching clears boosts.",
+        "effects": [
+          {
+            "op": "apply_stat_modifier",
+            "target": "self",
+            "stat": "force",
+            "numerator": 2,
+            "denominator": 1,
+            "duration": 4
+          },
+          {
+            "op": "apply_stat_modifier",
+            "target": "self",
+            "stat": "spirit",
+            "numerator": 2,
+            "denominator": 1,
+            "duration": 4
+          },
+          {
+            "op": "apply_stat_modifier",
+            "target": "self",
+            "stat": "speed",
+            "numerator": 5,
+            "denominator": 4,
+            "duration": 4
+          }
+        ]
+      },
+      {
+        "id": "M23",
+        "name": "Lantern Brace",
+        "type": null,
+        "category": "utility",
+        "power": 0,
+        "accuracy": 100,
+        "priority": 1,
+        "max_uses": 4,
+        "roles": [
+          "brace"
+        ],
+        "description": "Guard and Ward ×1.25 for 4 active turn ends; direct damage halved for 2. Switching clears both.",
+        "effects": [
+          {
+            "op": "apply_stat_modifier",
+            "target": "self",
+            "stat": "guard",
+            "numerator": 5,
+            "denominator": 4,
+            "duration": 4
+          },
+          {
+            "op": "apply_stat_modifier",
+            "target": "self",
+            "stat": "ward",
+            "numerator": 5,
+            "denominator": 4,
+            "duration": 4
+          },
+          {
+            "op": "apply_damage_reduction",
+            "target": "self",
+            "numerator": 1,
+            "denominator": 2,
+            "duration": 2
+          }
+        ]
+      },
+      {
+        "id": "M24",
+        "name": "Clearwake Rite",
+        "type": null,
+        "category": "utility",
+        "power": 0,
+        "accuracy": 100,
+        "priority": 1,
+        "max_uses": 3,
+        "roles": [
+          "cleanup"
+        ],
+        "description": "Remove your Fray and Tethered; clear opposing stat boosts. Opposing statuses and reduction stay.",
+        "effects": [
+          {
+            "op": "remove_statuses",
+            "target": "self",
+            "statuses": [
+              "fray",
+              "tethered"
+            ]
+          },
+          {
+            "op": "clear_stat_modifiers",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "F01",
+        "name": "Bare Resolve",
+        "type": null,
+        "category": "force",
+        "power": 20,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": null,
+        "roles": [
+          "fallback"
+        ],
+        "description": "Unlimited weak attack. Available when all known damaging moves are exhausted.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      },
+      {
+        "id": "F02",
+        "name": "Bare Resolve",
+        "type": null,
+        "category": "spirit",
+        "power": 20,
+        "accuracy": 100,
+        "priority": 0,
+        "max_uses": null,
+        "roles": [
+          "fallback"
+        ],
+        "description": "Unlimited weak attack. Available when all known damaging moves are exhausted.",
+        "effects": [
+          {
+            "op": "deal_direct_damage",
+            "target": "opponent_active"
+          }
+        ]
+      }
+    ],
+    "statuses": {
+      "fray": {
+        "name": "Fray",
+        "duration": 3,
+        "stat_modifiers": {},
+        "end_effects": [
+          {
+            "op": "lose_health_fraction",
+            "target": "self",
+            "numerator": 1,
+            "denominator": 8
+          }
+        ]
+      },
+      "tethered": {
+        "name": "Tethered",
+        "duration": 4,
+        "stat_modifiers": {
+          "speed": [
+            1,
+            2
+          ]
+        },
+        "end_effects": []
+      }
+    }
+  }
+}

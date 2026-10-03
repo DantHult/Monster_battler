@@ -1,0 +1,1345 @@
+{
+  "version": "pixel-v1",
+  "animation": false,
+  "grid": {
+    "front": [
+      80,
+      80
+    ],
+    "back": [
+      80,
+      80
+    ],
+    "icon": [
+      32,
+      32
+    ]
+  },
+  "rendering": "nearest-neighbor",
+  "lighting": "top-left",
+  "creatures": [
+    {
+      "id": "N01",
+      "name": "Coalspindle",
+      "type": "fire",
+      "palette": [
+        "#2b171b",
+        "#3b303b",
+        "#58414a",
+        "#795950",
+        "#a57a59",
+        "#57402b",
+        "#936343",
+        "#c89862",
+        "#edd79c",
+        "#9a3227",
+        "#d45623",
+        "#fa8b21",
+        "#ffe27a",
+        "#342733",
+        "#fff4d5"
+      ],
+      "materials": {
+        "soot": [
+          "#3b303b",
+          "#58414a",
+          "#795950",
+          "#a57a59"
+        ],
+        "firewood": [
+          "#57402b",
+          "#936343",
+          "#c89862",
+          "#edd79c"
+        ],
+        "embers": [
+          "#9a3227",
+          "#d45623",
+          "#fa8b21",
+          "#ffe27a"
+        ]
+      },
+      "outline": "#2b171b",
+      "files": {
+        "front": "/sprites/N01/front.png",
+        "back": "/sprites/N01/back.png",
+        "icon": "/sprites/N01/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 19,
+            "width": 72,
+            "height": 57
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 0,
+          "y": 0,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 14,
+            "width": 72,
+            "height": 62
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 0,
+          "y": 0,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 2,
+            "y": 8,
+            "width": 28,
+            "height": 22
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "id": "N02",
+      "name": "Hearthmoth",
+      "type": "fire",
+      "palette": [
+        "#3c1e25",
+        "#99775d",
+        "#c7a27b",
+        "#eccea0",
+        "#fff0c8",
+        "#783027",
+        "#b34d2b",
+        "#df7534",
+        "#faab52",
+        "#59252b",
+        "#913e2a",
+        "#c46632",
+        "#e58d3a",
+        "#f3d77b",
+        "#2e2832"
+      ],
+      "materials": {
+        "paper": [
+          "#99775d",
+          "#c7a27b",
+          "#eccea0",
+          "#fff0c8"
+        ],
+        "wings": [
+          "#783027",
+          "#b34d2b",
+          "#df7534",
+          "#faab52"
+        ],
+        "body": [
+          "#59252b",
+          "#913e2a",
+          "#c46632",
+          "#e58d3a"
+        ]
+      },
+      "outline": "#3c1e25",
+      "files": {
+        "front": "/sprites/N02/front.png",
+        "back": "/sprites/N02/back.png",
+        "icon": "/sprites/N02/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 80,
+          "y": 0,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 14,
+            "width": 72,
+            "height": 62
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 80,
+          "y": 0,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 5,
+            "y": 4,
+            "width": 70,
+            "height": 72
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 32,
+          "y": 0,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 2,
+            "y": 6,
+            "width": 28,
+            "height": 24
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "id": "N03",
+      "name": "Ribbonrook",
+      "type": "air",
+      "palette": [
+        "#17343c",
+        "#245067",
+        "#237b93",
+        "#39a2b4",
+        "#79cbd0",
+        "#b2a68d",
+        "#d6c9ad",
+        "#ede3ca",
+        "#fff0d6",
+        "#795531",
+        "#b07b35",
+        "#dfaa52",
+        "#f9d77c",
+        "#6e3333",
+        "#ad5343",
+        "#e17a58",
+        "#f7eed7"
+      ],
+      "materials": {
+        "ribbons": [
+          "#245067",
+          "#237b93",
+          "#39a2b4",
+          "#79cbd0"
+        ],
+        "chest": [
+          "#b2a68d",
+          "#d6c9ad",
+          "#ede3ca",
+          "#fff0d6"
+        ],
+        "beak": [
+          "#795531",
+          "#b07b35",
+          "#dfaa52",
+          "#f9d77c"
+        ]
+      },
+      "outline": "#17343c",
+      "files": {
+        "front": "/sprites/N03/front.png",
+        "back": "/sprites/N03/back.png",
+        "icon": "/sprites/N03/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 160,
+          "y": 0,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 13,
+            "width": 72,
+            "height": 63
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 160,
+          "y": 0,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 7,
+            "width": 72,
+            "height": 69
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 64,
+          "y": 0,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 2,
+            "y": 6,
+            "width": 28,
+            "height": 24
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "id": "N04",
+      "name": "Chimekite",
+      "type": "air",
+      "palette": [
+        "#193b41",
+        "#215669",
+        "#238397",
+        "#40a9b5",
+        "#89d2cb",
+        "#bc9c6c",
+        "#dac291",
+        "#f3e0b4",
+        "#fff1cf",
+        "#785332",
+        "#b17b34",
+        "#dfae50",
+        "#ffe08d",
+        "#25444d",
+        "#466676",
+        "#6b93a0",
+        "#fff4dc"
+      ],
+      "materials": {
+        "kite": [
+          "#215669",
+          "#238397",
+          "#40a9b5",
+          "#89d2cb"
+        ],
+        "paper": [
+          "#bc9c6c",
+          "#dac291",
+          "#f3e0b4",
+          "#fff1cf"
+        ],
+        "chimes": [
+          "#785332",
+          "#b17b34",
+          "#dfae50",
+          "#ffe08d"
+        ]
+      },
+      "outline": "#193b41",
+      "files": {
+        "front": "/sprites/N04/front.png",
+        "back": "/sprites/N04/back.png",
+        "icon": "/sprites/N04/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 240,
+          "y": 0,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 7,
+            "y": 4,
+            "width": 66,
+            "height": 72
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 240,
+          "y": 0,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 4,
+            "width": 71,
+            "height": 72
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 96,
+          "y": 0,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 2,
+            "y": 2,
+            "width": 27,
+            "height": 28
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "id": "N05",
+      "name": "Cairnox",
+      "type": "earth",
+      "palette": [
+        "#333628",
+        "#555451",
+        "#827d71",
+        "#b2a794",
+        "#d9ceb5",
+        "#594230",
+        "#87603d",
+        "#b3824b",
+        "#dbb272",
+        "#3c5839",
+        "#668343",
+        "#91a854",
+        "#bdca78",
+        "#934f31",
+        "#dea446",
+        "#ffe085"
+      ],
+      "materials": {
+        "stone": [
+          "#555451",
+          "#827d71",
+          "#b2a794",
+          "#d9ceb5"
+        ],
+        "branches": [
+          "#594230",
+          "#87603d",
+          "#b3824b",
+          "#dbb272"
+        ],
+        "moss": [
+          "#3c5839",
+          "#668343",
+          "#91a854",
+          "#bdca78"
+        ]
+      },
+      "outline": "#333628",
+      "files": {
+        "front": "/sprites/N05/front.png",
+        "back": "/sprites/N05/back.png",
+        "icon": "/sprites/N05/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 0,
+          "y": 80,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 11,
+            "width": 72,
+            "height": 65
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 0,
+          "y": 80,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 7,
+            "width": 72,
+            "height": 69
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 0,
+          "y": 32,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 2,
+            "y": 5,
+            "width": 28,
+            "height": 25
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "id": "N06",
+      "name": "Rootwrit",
+      "type": "earth",
+      "palette": [
+        "#382b24",
+        "#79503a",
+        "#ac6840",
+        "#d88a4f",
+        "#f7b369",
+        "#58452d",
+        "#83633a",
+        "#b59251",
+        "#d8b879",
+        "#3b5738",
+        "#5b8043",
+        "#85a751",
+        "#b0c56e",
+        "#978c60",
+        "#beb17b",
+        "#dbcf9d",
+        "#f3e5b8",
+        "#f6d675"
+      ],
+      "materials": {
+        "clay": [
+          "#79503a",
+          "#ac6840",
+          "#d88a4f",
+          "#f7b369"
+        ],
+        "roots": [
+          "#58452d",
+          "#83633a",
+          "#b59251",
+          "#d8b879"
+        ],
+        "leaves": [
+          "#3b5738",
+          "#5b8043",
+          "#85a751",
+          "#b0c56e"
+        ],
+        "tablets": [
+          "#978c60",
+          "#beb17b",
+          "#dbcf9d",
+          "#f3e5b8"
+        ]
+      },
+      "outline": "#382b24",
+      "files": {
+        "front": "/sprites/N06/front.png",
+        "back": "/sprites/N06/back.png",
+        "icon": "/sprites/N06/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 80,
+          "y": 80,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 6,
+            "width": 72,
+            "height": 70
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 80,
+          "y": 80,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 4,
+            "width": 72,
+            "height": 72
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 32,
+          "y": 32,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 2,
+            "y": 3,
+            "width": 28,
+            "height": 27
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "id": "N07",
+      "name": "Rillhorn",
+      "type": "water",
+      "palette": [
+        "#152c48",
+        "#1b3e70",
+        "#225f9d",
+        "#3185c8",
+        "#65b2e1",
+        "#16658a",
+        "#269bc0",
+        "#52c6dc",
+        "#a0e6ed",
+        "#789aa7",
+        "#a9c8d0",
+        "#d5e9e8",
+        "#f1f7df",
+        "#444f63",
+        "#69758a",
+        "#96a1b1",
+        "#c7c9c3",
+        "#e7bf54",
+        "#fff0aa"
+      ],
+      "materials": {
+        "body": [
+          "#1b3e70",
+          "#225f9d",
+          "#3185c8",
+          "#65b2e1"
+        ],
+        "water": [
+          "#16658a",
+          "#269bc0",
+          "#52c6dc",
+          "#a0e6ed"
+        ],
+        "horn": [
+          "#789aa7",
+          "#a9c8d0",
+          "#d5e9e8",
+          "#f1f7df"
+        ],
+        "hooves": [
+          "#444f63",
+          "#69758a",
+          "#96a1b1",
+          "#c7c9c3"
+        ]
+      },
+      "outline": "#152c48",
+      "files": {
+        "front": "/sprites/N07/front.png",
+        "back": "/sprites/N07/back.png",
+        "icon": "/sprites/N07/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 160,
+          "y": 80,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 18,
+            "width": 72,
+            "height": 58
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 160,
+          "y": 80,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 4,
+            "width": 71,
+            "height": 72
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 64,
+          "y": 32,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 2,
+            "y": 6,
+            "width": 28,
+            "height": 24
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "id": "N08",
+      "name": "Wellwisp",
+      "type": "water",
+      "palette": [
+        "#1c3940",
+        "#145577",
+        "#187f9a",
+        "#28b0bd",
+        "#95e1dc",
+        "#604432",
+        "#8b5f38",
+        "#b9884b",
+        "#e7b96d",
+        "#958568",
+        "#c4af87",
+        "#e5d2a5",
+        "#fff1ca",
+        "#533c2c",
+        "#a17438",
+        "#d99f49",
+        "#ecfff0"
+      ],
+      "materials": {
+        "water": [
+          "#145577",
+          "#187f9a",
+          "#28b0bd",
+          "#95e1dc"
+        ],
+        "wood": [
+          "#604432",
+          "#8b5f38",
+          "#b9884b",
+          "#e7b96d"
+        ],
+        "rope": [
+          "#958568",
+          "#c4af87",
+          "#e5d2a5",
+          "#fff1ca"
+        ]
+      },
+      "outline": "#1c3940",
+      "files": {
+        "front": "/sprites/N08/front.png",
+        "back": "/sprites/N08/back.png",
+        "icon": "/sprites/N08/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 240,
+          "y": 80,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 6,
+            "y": 4,
+            "width": 68,
+            "height": 72
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 240,
+          "y": 80,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 5,
+            "y": 4,
+            "width": 69,
+            "height": 72
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 96,
+          "y": 32,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 2,
+            "y": 3,
+            "width": 28,
+            "height": 27
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "id": "N09",
+      "name": "Knellbadger",
+      "type": "dark",
+      "palette": [
+        "#292437",
+        "#3f3455",
+        "#625074",
+        "#887198",
+        "#b09cbc",
+        "#ada49d",
+        "#cdc4b4",
+        "#e6ddc5",
+        "#fff1d4",
+        "#775132",
+        "#af7936",
+        "#dfab4e",
+        "#ffe18b",
+        "#514035",
+        "#785439",
+        "#a27d4f",
+        "#c9a365",
+        "#379990",
+        "#94d9c1"
+      ],
+      "materials": {
+        "fur": [
+          "#3f3455",
+          "#625074",
+          "#887198",
+          "#b09cbc"
+        ],
+        "mask": [
+          "#ada49d",
+          "#cdc4b4",
+          "#e6ddc5",
+          "#fff1d4"
+        ],
+        "bell": [
+          "#775132",
+          "#af7936",
+          "#dfab4e",
+          "#ffe18b"
+        ],
+        "bellInterior": [
+          "#514035",
+          "#785439",
+          "#a27d4f",
+          "#c9a365"
+        ]
+      },
+      "outline": "#292437",
+      "files": {
+        "front": "/sprites/N09/front.png",
+        "back": "/sprites/N09/back.png",
+        "icon": "/sprites/N09/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 0,
+          "y": 160,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 8,
+            "width": 72,
+            "height": 68
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 0,
+          "y": 160,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 8,
+            "width": 72,
+            "height": 68
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 0,
+          "y": 64,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 2,
+            "y": 4,
+            "width": 28,
+            "height": 26
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "id": "N10",
+      "name": "Duskquill",
+      "type": "dark",
+      "palette": [
+        "#271e3a",
+        "#362a54",
+        "#544174",
+        "#7b60a0",
+        "#a98ec3",
+        "#aa9b86",
+        "#cfbfa0",
+        "#ecdec0",
+        "#fff1d5",
+        "#775035",
+        "#ac783e",
+        "#d9ad5c",
+        "#f8d98b",
+        "#285669",
+        "#3b8193",
+        "#6bb3bd",
+        "#fff1b8"
+      ],
+      "materials": {
+        "ink": [
+          "#362a54",
+          "#544174",
+          "#7b60a0",
+          "#a98ec3"
+        ],
+        "quills": [
+          "#aa9b86",
+          "#cfbfa0",
+          "#ecdec0",
+          "#fff1d5"
+        ],
+        "shafts": [
+          "#775035",
+          "#ac783e",
+          "#d9ad5c",
+          "#f8d98b"
+        ]
+      },
+      "outline": "#271e3a",
+      "files": {
+        "front": "/sprites/N10/front.png",
+        "back": "/sprites/N10/back.png",
+        "icon": "/sprites/N10/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 80,
+          "y": 160,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 8,
+            "y": 4,
+            "width": 64,
+            "height": 72
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 80,
+          "y": 160,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 5,
+            "y": 4,
+            "width": 69,
+            "height": 72
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 32,
+          "y": 64,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 3,
+            "y": 2,
+            "width": 26,
+            "height": 28
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "id": "N11",
+      "name": "Bellmane",
+      "type": "light",
+      "palette": [
+        "#403022",
+        "#ae9576",
+        "#d3bb94",
+        "#ebd8b6",
+        "#fff0d6",
+        "#865832",
+        "#bb8438",
+        "#e7b54f",
+        "#ffe58b",
+        "#8d3e28",
+        "#c66529",
+        "#ef9d33",
+        "#ffe475",
+        "#784130",
+        "#b1633a",
+        "#da9c52",
+        "#f8eecf"
+      ],
+      "materials": {
+        "body": [
+          "#ae9576",
+          "#d3bb94",
+          "#ebd8b6",
+          "#fff0d6"
+        ],
+        "bells": [
+          "#865832",
+          "#bb8438",
+          "#e7b54f",
+          "#ffe58b"
+        ],
+        "lantern": [
+          "#8d3e28",
+          "#c66529",
+          "#ef9d33",
+          "#ffe475"
+        ]
+      },
+      "outline": "#403022",
+      "files": {
+        "front": "/sprites/N11/front.png",
+        "back": "/sprites/N11/back.png",
+        "icon": "/sprites/N11/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 160,
+          "y": 160,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 13,
+            "width": 72,
+            "height": 63
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 160,
+          "y": 160,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 4,
+            "y": 6,
+            "width": 72,
+            "height": 70
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 64,
+          "y": 64,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 2,
+            "y": 6,
+            "width": 28,
+            "height": 24
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    },
+    {
+      "id": "N12",
+      "name": "Glimmerscribe",
+      "type": "light",
+      "palette": [
+        "#433227",
+        "#b39478",
+        "#d9bd97",
+        "#eed9b3",
+        "#fff1d2",
+        "#806037",
+        "#b58a3d",
+        "#e4b94f",
+        "#ffe593",
+        "#71372e",
+        "#ac5337",
+        "#d7824b",
+        "#edac70",
+        "#b16d2e",
+        "#e9b142",
+        "#fff1a0",
+        "#694d39",
+        "#8f6846",
+        "#bd9060"
+      ],
+      "materials": {
+        "scrolls": [
+          "#b39478",
+          "#d9bd97",
+          "#eed9b3",
+          "#fff1d2"
+        ],
+        "lamp": [
+          "#806037",
+          "#b58a3d",
+          "#e4b94f",
+          "#ffe593"
+        ],
+        "bindings": [
+          "#71372e",
+          "#ac5337",
+          "#d7824b",
+          "#edac70"
+        ],
+        "lampGlass": [
+          "#b16d2e",
+          "#e9b142",
+          "#fff1a0"
+        ]
+      },
+      "outline": "#433227",
+      "files": {
+        "front": "/sprites/N12/front.png",
+        "back": "/sprites/N12/back.png",
+        "icon": "/sprites/N12/icon.png"
+      },
+      "frames": {
+        "front": {
+          "x": 240,
+          "y": 160,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 8,
+            "y": 4,
+            "width": 64,
+            "height": 72
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "back": {
+          "x": 240,
+          "y": 160,
+          "width": 80,
+          "height": 80,
+          "bounds": {
+            "x": 6,
+            "y": 4,
+            "width": 67,
+            "height": 72
+          },
+          "pivot": [
+            40,
+            76
+          ]
+        },
+        "icon": {
+          "x": 96,
+          "y": 64,
+          "width": 32,
+          "height": 32,
+          "bounds": {
+            "x": 3,
+            "y": 2,
+            "width": 26,
+            "height": 28
+          },
+          "pivot": [
+            16,
+            30
+          ]
+        }
+      }
+    }
+  ],
+  "atlases": {
+    "front": {
+      "path": "/sprites/front-atlas.png",
+      "columns": 4,
+      "rows": 3,
+      "cell": [
+        80,
+        80
+      ]
+    },
+    "back": {
+      "path": "/sprites/back-atlas.png",
+      "columns": 4,
+      "rows": 3,
+      "cell": [
+        80,
+        80
+      ]
+    },
+    "icon": {
+      "path": "/sprites/icon-atlas.png",
+      "columns": 4,
+      "rows": 3,
+      "cell": [
+        32,
+        32
+      ]
+    }
+  },
+  "battlefield": {
+    "colorVersion": "gray-v1",
+    "path": "/battle/background.png",
+    "size": [
+      256,
+      144
+    ],
+    "mobilePath": "/battle/background-mobile.png",
+    "mobileSize": [
+      176,
+      144
+    ],
+    "palette": [
+      "#55565c",
+      "#2c2f33",
+      "#7aa957",
+      "#f9f2cc",
+      "#373a3e",
+      "#93613c",
+      "#f8d436",
+      "#9bbb53",
+      "#63964a",
+      "#d3e0c3",
+      "#45474b",
+      "#54423a",
+      "#297363",
+      "#f7cb6d",
+      "#4a875a",
+      "#ca954b",
+      "#87b055",
+      "#c1ca7f",
+      "#755840",
+      "#25282c",
+      "#23665c",
+      "#fcfbe9",
+      "#b9d3b8",
+      "#4d5d4e"
+    ],
+    "platformCenters": {
+      "player": [
+        72,
+        114
+      ],
+      "opponent": [
+        192,
+        88
+      ]
+    },
+    "spriteOrigins": {
+      "player": [
+        32,
+        38
+      ],
+      "opponent": [
+        152,
+        12
+      ]
+    },
+    "mobileSpriteOrigins": {
+      "player": [
+        9,
+        38
+      ],
+      "opponent": [
+        92,
+        12
+      ]
+    }
+  }
+}

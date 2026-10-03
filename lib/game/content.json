@@ -1,0 +1,1266 @@
+{
+  "version": "lantern-content-v1",
+  "rules_version": "lantern-rules-v1",
+  "profile": "v1-independent-4",
+  "types": [
+    "fire",
+    "air",
+    "earth",
+    "water",
+    "dark",
+    "light"
+  ],
+  "chart": [
+    [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    [
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    [
+      [
+        3,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  ],
+  "monsters": [
+    {
+      "id": "N01",
+      "name": "Coalspindle",
+      "type": "fire",
+      "role": "Fast Force attacker",
+      "premise": "A soot-and-wicker creature born from the ritual of banking a hearth before sleep; it runs on jointed firewood legs.",
+      "stats": {
+        "health": 110,
+        "force": 100,
+        "guard": 70,
+        "spirit": 40,
+        "ward": 60,
+        "speed": 90
+      }
+    },
+    {
+      "id": "N02",
+      "name": "Hearthmoth",
+      "type": "fire",
+      "role": "Durable Spirit attacker",
+      "premise": "A folded festival-paper creature whose ember-patterned wings glow with wishes left beside household fires.",
+      "stats": {
+        "health": 125,
+        "force": 50,
+        "guard": 65,
+        "spirit": 85,
+        "ward": 90,
+        "speed": 65
+      }
+    },
+    {
+      "id": "N03",
+      "name": "Ribbonrook",
+      "type": "air",
+      "role": "Fastest Force attacker",
+      "premise": "A road-sign ribbon given a birdlike body by travelers' farewell songs; its trailing knots point toward home.",
+      "stats": {
+        "health": 105,
+        "force": 95,
+        "guard": 65,
+        "spirit": 50,
+        "ward": 70,
+        "speed": 100
+      }
+    },
+    {
+      "id": "N04",
+      "name": "Chimekite",
+      "type": "air",
+      "role": "Fast Spirit attacker",
+      "premise": "A living weather kite with a ring of floating ceramic chimes, awakened by a town's first spring procession.",
+      "stats": {
+        "health": 110,
+        "force": 40,
+        "guard": 65,
+        "spirit": 95,
+        "ward": 80,
+        "speed": 85
+      }
+    },
+    {
+      "id": "N05",
+      "name": "Cairnox",
+      "type": "earth",
+      "role": "Slow, durable Force attacker",
+      "premise": "A moving cairn with branch antlers, born when generations add stones to mark a safe mountain crossing.",
+      "stats": {
+        "health": 140,
+        "force": 85,
+        "guard": 85,
+        "spirit": 40,
+        "ward": 65,
+        "speed": 40
+      }
+    },
+    {
+      "id": "N06",
+      "name": "Rootwrit",
+      "type": "earth",
+      "role": "Spirit control; alternate Force attack",
+      "premise": "A root-bound clay figure carrying leaf-shaped tablets, formed from vows buried beneath an old boundary tree.",
+      "stats": {
+        "health": 125,
+        "force": 65,
+        "guard": 85,
+        "spirit": 80,
+        "ward": 70,
+        "speed": 60
+      }
+    },
+    {
+      "id": "N07",
+      "name": "Rillhorn",
+      "type": "water",
+      "role": "Force bruiser",
+      "premise": "A stream creature with a curved hollow horn and stepping-stone feet, born from the promise to keep a ford open.",
+      "stats": {
+        "health": 125,
+        "force": 90,
+        "guard": 75,
+        "spirit": 40,
+        "ward": 60,
+        "speed": 75
+      }
+    },
+    {
+      "id": "N08",
+      "name": "Wellwisp",
+      "type": "water",
+      "role": "Durable Spirit attacker",
+      "premise": "A suspended bead of water inside a walking rope-and-bucket frame, awakened by wishes spoken into a village well.",
+      "stats": {
+        "health": 130,
+        "force": 50,
+        "guard": 60,
+        "spirit": 90,
+        "ward": 80,
+        "speed": 55
+      }
+    },
+    {
+      "id": "N09",
+      "name": "Knellbadger",
+      "type": "dark",
+      "role": "Force control; high Guard",
+      "premise": "A squat burrowing creature with a silent bell-shaped carapace, born from the solemn counting of names at dusk.",
+      "stats": {
+        "health": 130,
+        "force": 85,
+        "guard": 90,
+        "spirit": 40,
+        "ward": 70,
+        "speed": 50
+      }
+    },
+    {
+      "id": "N10",
+      "name": "Duskquill",
+      "type": "dark",
+      "role": "Fast Spirit attacker",
+      "premise": "An ink-bodied creature with floating quills for limbs, formed from unfinished stories hidden away at night.",
+      "stats": {
+        "health": 105,
+        "force": 40,
+        "guard": 65,
+        "spirit": 100,
+        "ward": 70,
+        "speed": 95
+      }
+    },
+    {
+      "id": "N11",
+      "name": "Bellmane",
+      "type": "light",
+      "role": "Mixed-category attacker",
+      "premise": "A four-legged lantern guardian with a mane of luminous bell ribbons, born from a community's vow to guide lost travelers.",
+      "stats": {
+        "health": 120,
+        "force": 85,
+        "guard": 70,
+        "spirit": 80,
+        "ward": 70,
+        "speed": 70
+      }
+    },
+    {
+      "id": "N12",
+      "name": "Glimmerscribe",
+      "type": "light",
+      "role": "Slow Spirit control; high Ward",
+      "premise": "A walking bundle of translucent scrolls with a hovering lamp for a head, awakened by records of promises kept.",
+      "stats": {
+        "health": 135,
+        "force": 40,
+        "guard": 75,
+        "spirit": 80,
+        "ward": 90,
+        "speed": 45
+      }
+    }
+  ],
+  "sets": [
+    {
+      "id": "N01-A",
+      "monster_id": "N01",
+      "name": "Ember Pursuit",
+      "move_ids": [
+        "M01",
+        "M13",
+        "M14",
+        "M24"
+      ],
+      "plan": "Three attacks offer normal-speed damage, finishing, and limited Air coverage; clear disruptive effects.",
+      "weight": 1
+    },
+    {
+      "id": "N01-B",
+      "monster_id": "N01",
+      "name": "Vow of Sparks",
+      "move_ids": [
+        "M01",
+        "M13",
+        "M22",
+        "M20"
+      ],
+      "plan": "Prepare an attacking window or use Fray to pressure a durable switch-in.",
+      "weight": 1
+    },
+    {
+      "id": "N02-A",
+      "monster_id": "N02",
+      "name": "Hearthkeeper",
+      "move_ids": [
+        "M02",
+        "M16",
+        "M19",
+        "M24"
+      ],
+      "plan": "Recover after favorable exchanges; Water coverage improves attacks into Earth.",
+      "weight": 1
+    },
+    {
+      "id": "N02-B",
+      "monster_id": "N02",
+      "name": "Ash Courier",
+      "move_ids": [
+        "M02",
+        "M16",
+        "M20",
+        "M21"
+      ],
+      "plan": "Use Fray and slower opposing Speed to create a later attacking opportunity.",
+      "weight": 1
+    },
+    {
+      "id": "N03-A",
+      "monster_id": "N03",
+      "name": "Road Scout",
+      "move_ids": [
+        "M03",
+        "M14",
+        "M13",
+        "M24"
+      ],
+      "plan": "Act first at normal priority and remove disruption; Fire coverage helps against Dark.",
+      "weight": 1
+    },
+    {
+      "id": "N03-B",
+      "monster_id": "N03",
+      "name": "Tailwind Vow",
+      "move_ids": [
+        "M03",
+        "M14",
+        "M13",
+        "M22"
+      ],
+      "plan": "Trade a preparation action for stronger attacks; retain two finishing types.",
+      "weight": 1
+    },
+    {
+      "id": "N04-A",
+      "monster_id": "N04",
+      "name": "High Chime",
+      "move_ids": [
+        "M04",
+        "M18",
+        "M22",
+        "M24"
+      ],
+      "plan": "Create a Spirit attacking window while retaining an answer to opposing boosts and statuses.",
+      "weight": 1
+    },
+    {
+      "id": "N04-B",
+      "monster_id": "N04",
+      "name": "Crosscurrent",
+      "move_ids": [
+        "M04",
+        "M18",
+        "M20",
+        "M21"
+      ],
+      "plan": "Pressure switches and slow faster threats; Light coverage helps against Dark.",
+      "weight": 1
+    },
+    {
+      "id": "N05-A",
+      "monster_id": "N05",
+      "name": "Stone Shelter",
+      "move_ids": [
+        "M05",
+        "M13",
+        "M20",
+        "M23"
+      ],
+      "plan": "Use finite bracing to buy time for Fray and core damage; Fire coverage helps against Dark.",
+      "weight": 1
+    },
+    {
+      "id": "N05-B",
+      "monster_id": "N05",
+      "name": "Patient Bell",
+      "move_ids": [
+        "M05",
+        "M14",
+        "M21",
+        "M24"
+      ],
+      "plan": "Slow moderate-speed opponents, clear disruption, and use Air coverage against Water.",
+      "weight": 1
+    },
+    {
+      "id": "N06-A",
+      "monster_id": "N06",
+      "name": "Binding Script",
+      "move_ids": [
+        "M06",
+        "M18",
+        "M21",
+        "M24"
+      ],
+      "plan": "Change later move order and remove disruption; Light coverage helps against Dark.",
+      "weight": 1
+    },
+    {
+      "id": "N06-B",
+      "monster_id": "N06",
+      "name": "Holding Ground",
+      "move_ids": [
+        "M06",
+        "M05",
+        "M20",
+        "M23"
+      ],
+      "plan": "Brace while applying pressure; choose Force against opponents whose Guard is sufficiently lower than Ward.",
+      "weight": 1
+    },
+    {
+      "id": "N07-A",
+      "monster_id": "N07",
+      "name": "Ford Runner",
+      "move_ids": [
+        "M07",
+        "M13",
+        "M21",
+        "M24"
+      ],
+      "plan": "Control later Speed and attack through the more useful type; Fire coverage helps against Air.",
+      "weight": 1
+    },
+    {
+      "id": "N07-B",
+      "monster_id": "N07",
+      "name": "Rising Horn",
+      "move_ids": [
+        "M07",
+        "M14",
+        "M22",
+        "M20"
+      ],
+      "plan": "Prepare stronger attacks or punish a durable switch; Air coverage helps against Light.",
+      "weight": 1
+    },
+    {
+      "id": "N08-A",
+      "monster_id": "N08",
+      "name": "Wellkeeper",
+      "move_ids": [
+        "M08",
+        "M16",
+        "M19",
+        "M24"
+      ],
+      "plan": "Take favorable exchanges, spend bounded recovery, and finish with matching-type priority.",
+      "weight": 1
+    },
+    {
+      "id": "N08-B",
+      "monster_id": "N08",
+      "name": "Eroding Mark",
+      "move_ids": [
+        "M08",
+        "M15",
+        "M20",
+        "M21"
+      ],
+      "plan": "Apply pressure or change Speed; Earth coverage helps against Light.",
+      "weight": 1
+    },
+    {
+      "id": "N09-A",
+      "monster_id": "N09",
+      "name": "Toll Collector",
+      "move_ids": [
+        "M09",
+        "M17",
+        "M20",
+        "M24"
+      ],
+      "plan": "Use high Guard to stay active while pressuring Health; clear status or setup threats.",
+      "weight": 1
+    },
+    {
+      "id": "N09-B",
+      "monster_id": "N09",
+      "name": "Closed Gate",
+      "move_ids": [
+        "M09",
+        "M17",
+        "M21",
+        "M23"
+      ],
+      "plan": "Buy a finite defensive window and slow opponents enough to threaten an earlier knockout.",
+      "weight": 1
+    },
+    {
+      "id": "N10-A",
+      "monster_id": "N10",
+      "name": "Night Courier",
+      "move_ids": [
+        "M10",
+        "M15",
+        "M20",
+        "M24"
+      ],
+      "plan": "Use fast Spirit damage with cleanup; Earth coverage helps against both Fire and Light.",
+      "weight": 1
+    },
+    {
+      "id": "N10-B",
+      "monster_id": "N10",
+      "name": "Ink Oath",
+      "move_ids": [
+        "M10",
+        "M15",
+        "M22",
+        "M20"
+      ],
+      "plan": "Prepare an attacking window or pressure a switch; lacks immediate cleanup.",
+      "weight": 1
+    },
+    {
+      "id": "N11-A",
+      "monster_id": "N11",
+      "name": "Open Bell",
+      "move_ids": [
+        "M11",
+        "M12",
+        "M18",
+        "M24"
+      ],
+      "plan": "Select the damage category that deals more damage, then finish or remove disruption.",
+      "weight": 1
+    },
+    {
+      "id": "N11-B",
+      "monster_id": "N11",
+      "name": "Ringing Vow",
+      "move_ids": [
+        "M11",
+        "M12",
+        "M18",
+        "M22"
+      ],
+      "plan": "Prepare both damage categories and exploit whichever defense is lower.",
+      "weight": 1
+    },
+    {
+      "id": "N12-A",
+      "monster_id": "N12",
+      "name": "Ward Script",
+      "move_ids": [
+        "M12",
+        "M16",
+        "M20",
+        "M23"
+      ],
+      "plan": "Use high Ward and finite bracing while Fray advances the battle; Water coverage helps against Earth.",
+      "weight": 1
+    },
+    {
+      "id": "N12-B",
+      "monster_id": "N12",
+      "name": "Clear Script",
+      "move_ids": [
+        "M12",
+        "M18",
+        "M21",
+        "M24"
+      ],
+      "plan": "Slow moderate-speed threats, clear disruption, and finish with matching-type priority.",
+      "weight": 1
+    }
+  ],
+  "moves": [
+    {
+      "id": "M01",
+      "name": "Coalspur Strike",
+      "type": "fire",
+      "category": "force",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M02",
+      "name": "Hearthflare",
+      "type": "fire",
+      "category": "spirit",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M03",
+      "name": "Gale Hook",
+      "type": "air",
+      "category": "force",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M04",
+      "name": "Skycoil",
+      "type": "air",
+      "category": "spirit",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M05",
+      "name": "Cairn Hammer",
+      "type": "earth",
+      "category": "force",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M06",
+      "name": "Fault Hymn",
+      "type": "earth",
+      "category": "spirit",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M07",
+      "name": "Rill Lash",
+      "type": "water",
+      "category": "force",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M08",
+      "name": "Undertide",
+      "type": "water",
+      "category": "spirit",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M09",
+      "name": "Shade Rake",
+      "type": "dark",
+      "category": "force",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M10",
+      "name": "Dusk Thread",
+      "type": "dark",
+      "category": "spirit",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M11",
+      "name": "Halo Ram",
+      "type": "light",
+      "category": "force",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M12",
+      "name": "Dawn Weave",
+      "type": "light",
+      "category": "spirit",
+      "power": 65,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 10,
+      "roles": [
+        "core_damage"
+      ],
+      "description": "A reliable matching-type attack.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M13",
+      "name": "Cinder Flick",
+      "type": "fire",
+      "category": "force",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 1,
+      "max_uses": 8,
+      "roles": [
+        "priority_damage"
+      ],
+      "description": "A quick attack. Priority +1 precedes ordinary moves.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M14",
+      "name": "Draft Jab",
+      "type": "air",
+      "category": "force",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 1,
+      "max_uses": 8,
+      "roles": [
+        "priority_damage"
+      ],
+      "description": "A quick attack. Priority +1 precedes ordinary moves.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M15",
+      "name": "Pebble Sign",
+      "type": "earth",
+      "category": "spirit",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 1,
+      "max_uses": 8,
+      "roles": [
+        "priority_damage"
+      ],
+      "description": "A quick attack. Priority +1 precedes ordinary moves.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M16",
+      "name": "Spray Rune",
+      "type": "water",
+      "category": "spirit",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 1,
+      "max_uses": 8,
+      "roles": [
+        "priority_damage"
+      ],
+      "description": "A quick attack. Priority +1 precedes ordinary moves.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M17",
+      "name": "Gloom Nick",
+      "type": "dark",
+      "category": "force",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 1,
+      "max_uses": 8,
+      "roles": [
+        "priority_damage"
+      ],
+      "description": "A quick attack. Priority +1 precedes ordinary moves.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M18",
+      "name": "Ray Pin",
+      "type": "light",
+      "category": "spirit",
+      "power": 40,
+      "accuracy": 100,
+      "priority": 1,
+      "max_uses": 8,
+      "roles": [
+        "priority_damage"
+      ],
+      "description": "A quick attack. Priority +1 precedes ordinary moves.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "M19",
+      "name": "Hearthstitch",
+      "type": null,
+      "category": "utility",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 2,
+      "roles": [
+        "healing"
+      ],
+      "description": "Restore \u00bc maximum Health, rounded down.",
+      "effects": [
+        {
+          "op": "restore_health_fraction",
+          "target": "self",
+          "numerator": 1,
+          "denominator": 4
+        }
+      ]
+    },
+    {
+      "id": "M20",
+      "name": "Ashen Ledger",
+      "type": null,
+      "category": "utility",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 4,
+      "roles": [
+        "pressure"
+      ],
+      "description": "Apply Fray: lose \u215b maximum Health at the next 3 active turn ends, including this turn.",
+      "effects": [
+        {
+          "op": "apply_status",
+          "target": "opponent_active",
+          "status": "fray"
+        }
+      ]
+    },
+    {
+      "id": "M21",
+      "name": "Weightbind",
+      "type": null,
+      "category": "utility",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 4,
+      "roles": [
+        "speed_control"
+      ],
+      "description": "Apply Tethered: halve Speed for 4 active turn ends. Queued move order stays fixed.",
+      "effects": [
+        {
+          "op": "apply_status",
+          "target": "opponent_active",
+          "status": "tethered"
+        }
+      ]
+    },
+    {
+      "id": "M22",
+      "name": "Kindled Oath",
+      "type": null,
+      "category": "utility",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": 3,
+      "roles": [
+        "setup"
+      ],
+      "description": "Double Force and Spirit; multiply Speed by 1.25 for 4 active turn ends. Switching clears boosts.",
+      "effects": [
+        {
+          "op": "apply_stat_modifier",
+          "target": "self",
+          "stat": "force",
+          "numerator": 2,
+          "denominator": 1,
+          "duration": 4
+        },
+        {
+          "op": "apply_stat_modifier",
+          "target": "self",
+          "stat": "spirit",
+          "numerator": 2,
+          "denominator": 1,
+          "duration": 4
+        },
+        {
+          "op": "apply_stat_modifier",
+          "target": "self",
+          "stat": "speed",
+          "numerator": 5,
+          "denominator": 4,
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "id": "M23",
+      "name": "Lantern Brace",
+      "type": null,
+      "category": "utility",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 1,
+      "max_uses": 4,
+      "roles": [
+        "brace"
+      ],
+      "description": "Guard and Ward \u00d71.25 for 4 active turn ends; direct damage halved for 2. Switching clears both.",
+      "effects": [
+        {
+          "op": "apply_stat_modifier",
+          "target": "self",
+          "stat": "guard",
+          "numerator": 5,
+          "denominator": 4,
+          "duration": 4
+        },
+        {
+          "op": "apply_stat_modifier",
+          "target": "self",
+          "stat": "ward",
+          "numerator": 5,
+          "denominator": 4,
+          "duration": 4
+        },
+        {
+          "op": "apply_damage_reduction",
+          "target": "self",
+          "numerator": 1,
+          "denominator": 2,
+          "duration": 2
+        }
+      ]
+    },
+    {
+      "id": "M24",
+      "name": "Clearwake Rite",
+      "type": null,
+      "category": "utility",
+      "power": 0,
+      "accuracy": 100,
+      "priority": 1,
+      "max_uses": 3,
+      "roles": [
+        "cleanup"
+      ],
+      "description": "Remove your Fray and Tethered; clear opposing stat boosts. Opposing statuses and reduction stay.",
+      "effects": [
+        {
+          "op": "remove_statuses",
+          "target": "self",
+          "statuses": [
+            "fray",
+            "tethered"
+          ]
+        },
+        {
+          "op": "clear_stat_modifiers",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "F01",
+      "name": "Bare Resolve",
+      "type": null,
+      "category": "force",
+      "power": 20,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": null,
+      "roles": [
+        "fallback"
+      ],
+      "description": "Unlimited weak attack. Available when all known damaging moves are exhausted.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "name": "Bare Resolve",
+      "type": null,
+      "category": "spirit",
+      "power": 20,
+      "accuracy": 100,
+      "priority": 0,
+      "max_uses": null,
+      "roles": [
+        "fallback"
+      ],
+      "description": "Unlimited weak attack. Available when all known damaging moves are exhausted.",
+      "effects": [
+        {
+          "op": "deal_direct_damage",
+          "target": "opponent_active"
+        }
+      ]
+    }
+  ],
+  "statuses": {
+    "fray": {
+      "name": "Fray",
+      "duration": 3,
+      "stat_modifiers": {},
+      "end_effects": [
+        {
+          "op": "lose_health_fraction",
+          "target": "self",
+          "numerator": 1,
+          "denominator": 8
+        }
+      ]
+    },
+    "tethered": {
+      "name": "Tethered",
+      "duration": 4,
+      "stat_modifiers": {
+        "speed": [
+          1,
+          2
+        ]
+      },
+      "end_effects": []
+    }
+  }
+}

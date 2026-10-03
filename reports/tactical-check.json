@@ -1,0 +1,260 @@
+{
+  "summary": {
+    "matches": 2,
+    "policies": [
+      "T",
+      "S"
+    ],
+    "rules": "lantern-rules-v1",
+    "content": "lantern-content-v1",
+    "profile": "v1-independent-4",
+    "rng": "hmac-sha256-counter-u32-v1",
+    "bot_versions": {
+      "R": "random-v1",
+      "S": "direct-attacker-v1",
+      "T": "tactical-four-turn-v1"
+    },
+    "wins": [
+      0,
+      2
+    ],
+    "draws": {
+      "turn_cap": 0,
+      "simultaneous_knockout": 0
+    },
+    "species": {
+      "N01": {
+        "containing_teams": 1,
+        "score": 0,
+        "leads": 1,
+        "deployed": 1
+      },
+      "N12": {
+        "containing_teams": 2,
+        "score": 1,
+        "leads": 0,
+        "deployed": 2
+      },
+      "N05": {
+        "containing_teams": 2,
+        "score": 0,
+        "leads": 1,
+        "deployed": 2
+      },
+      "N06": {
+        "containing_teams": 3,
+        "score": 2,
+        "leads": 2,
+        "deployed": 3
+      },
+      "N03": {
+        "containing_teams": 3,
+        "score": 2,
+        "leads": 0,
+        "deployed": 2
+      },
+      "N10": {
+        "containing_teams": 1,
+        "score": 1,
+        "leads": 0,
+        "deployed": 1
+      },
+      "N02": {
+        "containing_teams": 2,
+        "score": 1,
+        "leads": 0,
+        "deployed": 2
+      },
+      "N04": {
+        "containing_teams": 1,
+        "score": 0,
+        "leads": 0,
+        "deployed": 1
+      },
+      "N11": {
+        "containing_teams": 1,
+        "score": 1,
+        "leads": 0,
+        "deployed": 1
+      }
+    },
+    "sets": {
+      "N01-B": {
+        "containing_teams": 1,
+        "score": 0,
+        "leads": 1,
+        "deployed": 1
+      },
+      "N12-B": {
+        "containing_teams": 2,
+        "score": 1,
+        "leads": 0,
+        "deployed": 2
+      },
+      "N05-B": {
+        "containing_teams": 2,
+        "score": 0,
+        "leads": 1,
+        "deployed": 2
+      },
+      "N06-A": {
+        "containing_teams": 2,
+        "score": 1,
+        "leads": 1,
+        "deployed": 2
+      },
+      "N03-A": {
+        "containing_teams": 1,
+        "score": 1,
+        "leads": 0,
+        "deployed": 0
+      },
+      "N10-A": {
+        "containing_teams": 1,
+        "score": 1,
+        "leads": 0,
+        "deployed": 1
+      },
+      "N02-A": {
+        "containing_teams": 1,
+        "score": 1,
+        "leads": 0,
+        "deployed": 1
+      },
+      "N02-B": {
+        "containing_teams": 1,
+        "score": 0,
+        "leads": 0,
+        "deployed": 1
+      },
+      "N03-B": {
+        "containing_teams": 2,
+        "score": 1,
+        "leads": 0,
+        "deployed": 2
+      },
+      "N04-B": {
+        "containing_teams": 1,
+        "score": 0,
+        "leads": 0,
+        "deployed": 1
+      },
+      "N11-B": {
+        "containing_teams": 1,
+        "score": 1,
+        "leads": 0,
+        "deployed": 1
+      },
+      "N06-B": {
+        "containing_teams": 1,
+        "score": 1,
+        "leads": 1,
+        "deployed": 1
+      }
+    },
+    "types": {
+      "fire": {
+        "containing_teams": 3,
+        "score": 1
+      },
+      "light": {
+        "containing_teams": 2,
+        "score": 1
+      },
+      "earth": {
+        "containing_teams": 4,
+        "score": 2
+      },
+      "air": {
+        "containing_teams": 3,
+        "score": 2
+      },
+      "dark": {
+        "containing_teams": 1,
+        "score": 1
+      }
+    },
+    "comeback": {
+      "eligible": 2,
+      "wins": 1,
+      "draws": 0
+    },
+    "critical": {
+      "executed_attacks": 47,
+      "hits": 0,
+      "immediate_KO_threshold_changed": null
+    },
+    "first_damaging_action": {
+      "eligible": 2,
+      "score": 2
+    },
+    "turns": [
+      16,
+      17
+    ],
+    "median_turns": 17,
+    "mean_turns": 16.5,
+    "elapsed_seconds": 0.871029362,
+    "note": "One stable policy pairing per report. Containing-team scores are not duel strength. Threshold-changing criticals require event-by-event counterfactual replay; this report leaves them unmeasured. Human pace/fun and severe team matchup advantage are not inferred."
+  },
+  "records": [
+    {
+      "fixture": 0,
+      "seed": "9fdf1641de3a69404b7126913cb816a475c5d33f453fdeb0c8527f152b773bfb",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N01-B",
+          "N12-B",
+          "N05-B",
+          "N06-A"
+        ],
+        [
+          "N03-A",
+          "N10-A",
+          "N06-A",
+          "N02-A"
+        ]
+      ],
+      "turns": 16,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    },
+    {
+      "fixture": 1,
+      "seed": "a8c37fa9651aed78e0ea37716660c19f6e8bb5185896b720a15418d9c70289f6",
+      "policies": [
+        "T",
+        "S"
+      ],
+      "teams": [
+        [
+          "N05-B",
+          "N02-B",
+          "N03-B",
+          "N04-B"
+        ],
+        [
+          "N11-B",
+          "N12-B",
+          "N06-B",
+          "N03-B"
+        ]
+      ],
+      "turns": 17,
+      "outcome": {
+        "winner": 1,
+        "reason": "knockout"
+      },
+      "critical_hits": 0,
+      "bot_draws": []
+    }
+  ]
+}

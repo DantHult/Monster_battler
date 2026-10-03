@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "Room creation gives one private offer; tokens never appear in views",
+    "A concurrent join claims exactly one seat",
+    "A redraw stays private; only final teams become public",
+    "Invalid/late/repeated choices cannot double-spend a move",
+    "Reload/pause preserves pending privacy; both commits resolve exactly once",
+    "Five real SQLite-backed matches finish under concurrent commits and replay"
+  ],
+  "completed_matches": 5,
+  "interruptions": 2,
+  "automatic": true,
+  "human_playtests": 0
+}
